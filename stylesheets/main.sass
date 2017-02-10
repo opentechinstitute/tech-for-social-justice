@@ -1,0 +1,344 @@
+---
+---
+
+@import reset
+@import fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700')
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700')
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Raleway|Space+Mono|Source+Code+Pro')
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+
+$secondaryColor: #f8e30d // Super bright accent yellow
+$altColor: #5fcab8 //bright teal //#9c6dce //bright purple //#72cace // A bright, but friendly and approachable teal-blue
+$primaryColor: darken($altColor, 20%) //#c95e31 // Red-orange: powerful and says we mean business. Could be brighter?
+$altSecondaryColor: #f5743d // brighter red-orange
+$white: #fefef1 //#fdfdf1 // A warm off-white: 
+$black: #415851 // A cool, dark grey
+$primaryFont: 'Source Sans Pro', 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
+$headerFont: 'Source Sans Pro', 'Space Mono', 'Inconsolata', 'Courier', monospace
+
+*
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+
+html
+  font-family: $primaryFont
+  color: $black
+
+h1, h2, h3, h4, h5, h6 
+  font-family: $headerFont
+  line-height: 140%
+
+h1
+  font-weight: 300
+  font-size: 1.4em
+  //line-height: 2.8em
+
+h2
+  font-size: 1.4em
+
+main
+  min-height: 100vh
+  position: relative
+  background: $white
+
+.clear
+  clear: both
+
+.content
+  //max-width: 960px
+  max-width: 1200px
+  margin: 0 auto
+  clear: both
+  padding: 0 2em
+
+b
+  font-weight: bold
+
+.filters-group
+  display: flex
+  .filters
+    flex: 1
+    margin-right: 0.5em
+    &:last-child
+      margin-right: 0
+
+.filters
+  display: flex
+  margin: 0.5em 0
+  button
+    flex: 1
+    border: $white solid
+    padding: 1.2em 0.4em 1em 0.4em
+    min-width: 110px
+    font-size: 1em
+    text-align: center
+    color: #444
+    cursor: pointer
+  i
+    padding: 0 0.5em
+.filters-stars
+  font-size: 0
+  i
+    font-size: 12px
+.filters-all
+  background: $altColor
+  color: #fff
+  padding: 1em 0
+  button
+    //background: #fff
+    color: $white
+    margin: 0 0.25em 0.5em 0.25em
+    &:hover
+      background: $white
+      color: $primaryColor
+    &.selected
+      background: $white
+      color: $primaryColor
+    &:disabled
+      opacity: 0.5
+  .filters
+    flex-wrap: wrap
+    -webkit-flex-wrap: wrap
+
+.search
+  background-color: lighten($altColor, 10%)
+
+.search-input
+  width: 100%
+  padding: 0.5em 1em 0.5em 2em
+  border: none
+  font-family: $primaryFont
+  font-weight: 300
+  font-size: 1.5em
+  background-color: transparent
+  //border-radius: 2em
+  color: $black
+  &::-webkit-input-placeholder
+    color: $white 
+    opacity: 0.7
+  &:-moz-placeholder
+    color: $white 
+    opacity: 0.7
+  &::-moz-placeholder
+    color: $white 
+    opacity: 0.7
+  &:-ms-input-placeholder 
+    color: $white 
+    opacity: 0.7
+
+.search-wrapper
+  position: relative
+  //margin: 0 0 2em 0
+  &:before
+    font-family: 'FontAwesome'
+    color: $primaryColor
+    position: absolute
+    top: 0.3em
+    //left: 0.5em
+    content: "\f002"
+    font-size: 2em
+
+a, a:visited
+  color: $primaryColor
+  text-decoration: none
+  &:hover
+    color: $altColor
+    text-decoration: none
+
+
+header
+  color: #444
+  background-color: $altColor
+  //background-image: url('../assets/wocintechchat1-large.jpg')
+  background-size: cover
+  background-position: center center
+  box-shadow: 0px 2px 25px 0px rgba(0,0,0,0.32)
+  h1
+    a, a:visited, a:hover
+      color: #fff !important
+      text-decoration: none
+  .logo
+    float: left
+    font-size: 1.8em
+  .content
+    //padding: 1em 2em
+
+.header-bar
+  color: #FFF
+  top: 0
+  left: 0
+  right: 0
+  z-index: 1
+  a, a:visited
+    color: #FFF
+    text-decoration: none
+    &:hover
+      color: #FFF
+      text-decoration: none
+  .submit-button, .submit-button:visited
+    padding: 0.5em
+    border: 2px solid #FFF
+    &:hover
+      background-color: lighten($altColor, 8%)
+      border: 2px solid #fff
+      text-decoration: none
+  .main-nav 
+    //height: 100%
+    .active
+      background-color: lighten($altColor, 10%)
+  nav ul 
+    height: 100%
+    margin: 0
+    padding: 0
+    display: flex
+    flex-flow: row wrap
+    /* This aligns items to the end line on main-axis */
+    justify-content: flex-start
+  nav li
+    padding: 1.5em 2em
+    &:hover
+      background-color: lighten($altColor, 10%)
+  .header-bar-left,
+  .header-bar-right,
+    line-height: 2.5
+  .header-bar-right
+    text-align: right
+    right: 0
+    flex: 3
+  .header-bar-left
+    flex: 1
+  .header-bar-top
+    min-height: 11em
+    width: 100%
+    position: relative
+    //padding: 4em 4em 0 4em
+  .header-bar-bottom
+    height: 4em
+    width: 100%
+    //padding: 0 5em
+
+.title
+  font-size: 2.8em
+  text-align: left
+  line-height: 135%
+  border-bottom: 1px #FFF solid
+  padding-bottom: 0.5em
+  position: absolute
+  bottom: 0
+
+footer
+  background: #fff
+  color: $black
+  padding: 3em 0
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-around
+  bottom: 0
+  left: 0
+  right: 0
+  z-index: 1
+  p
+    line-height: 140%
+  a, a:visited
+    color: $altColor
+    text-decoration: none
+    &:hover
+      color: $primaryColor
+      text-decoration: underline
+  img
+    height: 50px
+    vertical-align: middle
+    margin-right: 0.5em
+  section 
+    width: 100%
+    margin: 0
+    text-align: left
+    li 
+      float: left
+  .core-team
+    height: 40%
+  .partners
+    height: 60%
+  .about
+    height: 80%
+  .social
+    height: 20%
+    padding: 1em 0 0 0
+  .footer-left,
+  .footer-right
+    span, a
+      margin: 0 0.5em
+  .footer-right
+    text-align: right
+    padding-left: 3em
+  .copyright
+    text-align: center
+  .footer-left,
+  .footer-right,
+  .copyright
+    flex: 1
+    line-height: 2.5
+
+.footer-container
+  display: flex
+
+.filters-all-content
+  display: block //this determines whether the filters show by default or not
+  > .filters:first-child
+    margin-top: 1em
+.filters-controls
+  font-size: 1.2em
+  overflow: hidden
+  button, button:hover
+    color: #fff
+    background: none
+    margin: 0
+
+.toggle-filters
+  float: left
+  cursor: pointer
+.clear-filters
+  float: right
+  cursor: pointer
+
+.search-dropdown
+  position: absolute
+  background: #eee
+  color: #111
+  left: 2.8em
+  right: 2em
+  z-index: 10
+  li
+    padding: 1em
+    cursor: pointer
+    &:hover
+      background: #ddd
+
+.filters-state
+  margin: 1em 0
+  text-align: center
+
+@media screen and (max-width: 490px)
+  .header-bar
+    text-align: center
+    > *
+      display: block
+      float: none !important
+      text-align: center
+    h1
+      font-size: 2.2em
+  header .content
+    padding: 0
+
+@media screen and (max-width: 820px)
+  footer
+    display: block
+    text-align: center
+    .footer-right
+      text-align: center
+
+@import result
+@import resource
+@import about

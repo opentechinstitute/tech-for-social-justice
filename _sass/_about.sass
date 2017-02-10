@@ -1,0 +1,105 @@
+.about-title
+  text-align: left
+
+.about-intro, .faq
+  display: flex
+  border-bottom: 1px solid #ccc
+  a, a:visited
+    text-decoration: none
+    color: $primaryColor
+    font-weight: bold
+  p
+    margin: 0 0 1.5em 0
+    line-height: 1.6
+  article
+    flex: 4
+    font-size: 1.3em
+    padding: 0 3em 0 0
+    p
+      font-size: 0.8em
+      color: #767676
+      &:first-child
+        color: #555
+        font-size: 1em
+  aside
+    flex: 2
+    color: #555
+    margin-top: 5em
+
+.about-intro
+  article
+    li
+      margin: 0 0 0.8em 0
+    &:last-of-type
+      margin-bottom: 3em
+
+.about-intro, .about-letter, .faq
+  padding: 3em 2em
+
+.about-letter
+  padding-top: 1em
+  padding-bottom: 10em
+  //background-color: #fff
+  border-bottom: 1px solid #ccc
+  p
+    margin: 1em 0
+    color: #555
+    line-height: 1.6
+
+.org 
+  display: flex
+  padding: 1em 0
+  .orglogo
+    flex: 1
+    padding: 1em 1em 1em 0
+    img 
+      max-width: 10em
+  p
+    flex: 3
+
+.faq
+  aside
+    li
+      font-size: 1.2em
+      margin: 0 0 2em 0
+  .back-to-top, .back-to-top:visited
+    font-weight: normal
+    font-size: 0.8em
+    color: #aaa
+    text-decoration: underline
+
+.faq-questions, .faq-answers, .resources-index, .resources-resources
+  font-size: 0.8em
+
+.faq-questions, .resources-index
+  padding-bottom: 2em
+  margin-bottom: 4em
+  //border-bottom: 1px solid #ccc
+  li
+    line-height: 1.4
+
+.faq-questions
+  li
+    margin: 0 0 2em 0
+
+.faq-answers, .resources-resources
+  li
+    margin: 0 0 6em 0
+
+.faq-answer-question, .resources-resource
+  margin: 0 0 0.5em 0
+  display: block
+
+.faq-intro, .resources-intro
+  margin: 0 0 2em 0
+  font-weight: bold
+  line-height: 1.6
+  color: #555
+
+@media screen and (max-width: 620px)
+  .about-intro, .faq
+    display: block
+    article
+      padding: 0 0 2em 0
+  .about-title
+    font-size: 2.2em
