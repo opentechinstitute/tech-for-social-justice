@@ -21,8 +21,7 @@ theme: minima
 gems:
 - jekyll-feed
 exclude:
-  - Gemfile
-  - Gemfile.lock
+- Gemfile
+- Gemfile.lock
 sass:
-    sass_dir: _sass
-
+  sass_dir: _sass
