@@ -2,6 +2,7 @@
 title: Georgia Bullen
 date: 2017-02-10 15:18:00 Z
 photo: "/uploads/georgia-bullen_person_image.original.jpg"
+twitter: georgiamoon
 layout: person
 ---
 
