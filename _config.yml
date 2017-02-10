@@ -30,3 +30,11 @@ include:
 - uploads
 sass:
   sass_dir: _sass
+defaults:
+  -
+    scope:
+      path: ""
+      type: "people"
+    values:
+      photo: ""
+      twitter: ""

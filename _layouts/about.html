@@ -33,11 +33,14 @@ layout: default
 
     <p><b>The Open Technology Institute (OTI) at New America</b> is committed to freedom and social justice in the digital age. To achieve these goals, it intervenes in traditional policy debates, builds technology, and deploys tools with communities.<a href="https://www.newamerica.org/oti">https://www.newamerica.org/oti</a></p>
 	
-	<ul>
-    {% for post in site.posts %}
-    	<li>
-      		<a href="{{ post.url }}">{{ post.title }}</a>
-      		<img src="{{ post.photo | relative_url }}">
+	<ul class="people">
+    {% for person in site.people %}
+    	<li class="person">
+    		<img class="person-photo" src="{{ person.photo | relative_url }}">
+    		<div class="person-info">
+    			<h1>{{ person.title }}</h1>
+      			<p class="short-bio">{{ person.content }}</p>
+    		</div>
     	</li>
   	{% endfor %}
   	</ul>
