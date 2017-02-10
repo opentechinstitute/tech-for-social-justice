@@ -1,7 +1,7 @@
 ---
 title: Georgia Bullen
 date: 2017-02-10 05:15:00 Z
-Photo: "/uploads/georgia-bullen_person_image.original.jpg"
+photo: "/uploads/tumblr_niac7mTl8D1qhl8bxo1_1280.jpg"
 layout: person
 ---
 
