@@ -23,5 +23,7 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
+include:
+- uploads
 sass:
   sass_dir: _sass
