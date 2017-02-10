@@ -1,0 +1,15 @@
+---
+layout: default
+js:
+    - javascript/orglist.js
+---
+
+{% include search.html %}
+
+{% include filters.html %}
+
+<section class="results content">
+    <ul><h1 class="loading">Loading list of organizations...</h1></ul>
+</section>
+
+<script src="{{ "assets/orglist.js" | relative_url }}"></script>
