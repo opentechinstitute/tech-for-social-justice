@@ -37,6 +37,7 @@ layout: default
     {% for post in site.posts %}
     	<li>
       		<a href="{{ post.url }}">{{ post.title }}</a>
+      		<img src="{{ post.photo | relative_url }}">
     	</li>
   	{% endfor %}
   	</ul>
