@@ -4,9 +4,9 @@
 
 .person
   display: inline-block
-  width: 30%
+  width: 31%
   background-color: #fbf5e4 //rgba(0,0,0,0.0625) //#fdf8e8
-  margin: 0.7%
+  margin: 1%
   position: relative
   vertical-align: top
   overflow: hidden
@@ -18,7 +18,7 @@
 
 .person-info
   padding: 1em
-  height: 300px
+  //height: 300px
   h2
     font-size: 1em
 
@@ -28,3 +28,11 @@
 .twitter
   display: inline
   margin-left: 10px
+
+@media screen and (max-width: 990px)
+  .person
+    width: 48%
+
+@media screen and (max-width: 690px)
+  .person
+    width: 100%
