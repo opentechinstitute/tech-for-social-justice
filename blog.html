@@ -1,11 +1,14 @@
 ---
 layout: default
 ---
-
-<ul>
-{% for post in site.posts %}
-	<li>
-		<p>{{ post.content }}</p>
-	</li>
-{% endfor %}
-</ul>
+<section class="blog content">
+	<ul>
+	{% for post in site.posts %}
+		<li>
+			<h1>{{ post.title }}</h1>
+			<h2>by {{ post.author }}</h2>
+			<p>{{ post.content }}</p>
+		</li>
+	{% endfor %}
+	</ul>
+</section>
