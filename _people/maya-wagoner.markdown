@@ -1,7 +1,7 @@
 ---
 title: Maya Wagoner
 date: 2017-02-10 23:24:00 Z
-position: 5
+position: 6
 photo: "/uploads/IMG_1899%20square.jpg"
 twitter: mayawagon
 role: core
