@@ -1,7 +1,7 @@
 ---
 title: Chris Schweidler
 date: 2017-02-10 22:46:00 Z
-position: 1
+position: 2
 photo: "/uploads/chris-300px.jpg"
 twitter: scrumbly1
 role: core
