@@ -1,6 +1,7 @@
 ---
 title: Diana Nucera
 date: 2017-02-13 19:22:00 Z
+position: 7
 photo: "/uploads/diana_resized2.png"
 twitter: mothercyborg
 role: partner

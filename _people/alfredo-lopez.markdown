@@ -1,6 +1,7 @@
 ---
 title: Alfredo Lopez
 date: 2017-02-13 19:13:00 Z
+position: 6
 photo: "/uploads/why-join.previewcrop.png"
 role: partner
 organization: May First/People Link
