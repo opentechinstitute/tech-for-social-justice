@@ -1,7 +1,7 @@
 ---
 title: Willow Brugh
 date: 2017-02-11 16:30:00 Z
-position: 6
+position: 7
 photo: "/uploads/willow.jpeg"
 twitter: willowbl00
 role: partner
