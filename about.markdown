@@ -1,6 +1,7 @@
 ---
 title: About
 date: 2017-02-13 19:43:00 Z
+layout: about
 ---
 
 # Background
