@@ -1,4 +1,5 @@
 ---
+title: Orglist
 layout: orglist
 ---
 
