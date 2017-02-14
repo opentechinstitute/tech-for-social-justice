@@ -24,7 +24,8 @@ layout: default
 	
 	<h1>Core Research Team</h1>
 	<ul class="people">
-    {% for person in site.people %}
+	{% assign sorted_people = site.people | sort:"position" %}
+    {% for person in sorted_people %}
     	{% if person.role == 'core' %}
 	    	<li class="person">
 	    		<div class="person-photo" style="background-image:url({{ person.photo | relative_url }});"></div>
@@ -41,7 +42,7 @@ layout: default
 	
 	<h1>Partners</h1>
 	<ul class="people">
-    {% for person in site.people %}
+    {% for person in sorted_people %}
     	{% if person.role == 'partner' %}
 	    	<li class="person">
 	    		<div class="person-photo" style="background-image:url({{ person.photo | relative_url }});"></div>
