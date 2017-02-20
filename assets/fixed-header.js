@@ -17,7 +17,7 @@ $( document ).ready(function() {
 	  var sticky = $('.header-bar'),
 	      scroll = $(window).scrollTop();
 
-	  if (scroll >= 100) sticky.addClass('fixed');
-	  else sticky.removeClass('fixed');
+	  if (scroll >= 100) sticky.removeClass('content').addClass('fixed');
+	  else sticky.removeClass('fixed').addClass('content');
 	});
 });
