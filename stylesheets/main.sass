@@ -16,7 +16,8 @@ $white: #fefef1 //#fdfdf1 // A warm off-white:
 $black: #415851 // A cool, dark grey
 $primaryFont: 'Source Sans Pro', 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
 $headerFont: 'Source Sans Pro', 'Space Mono', 'Inconsolata', 'Courier', monospace
-$headerHeight: 750px
+$headerHeight: 700px
+$fixedHeaderHeight: 3em
 
 *
   -moz-box-sizing: border-box
@@ -177,14 +178,21 @@ header
   .content
     //padding: 1em 2em
   video
-    position: absolute
-    top: 0
-    //width: 100%
-    height: $headerHeight
-    // background-attachment: fixed
-    // background-position: 50% 50%
-    // background-repeat: no-repeat
-    // background-size: cover
+    position: fixed
+    top: 50%
+    left: 50%
+    min-width: 100%
+    min-height: 100%
+    width: auto
+    height: auto
+    z-index: -100
+    -ms-transform: translateX(-50%) translateY(-50%)
+    -moz-transform: translateX(-50%) translateY(-50%)
+    -webkit-transform: translateX(-50%) translateY(-50%)
+    transform: translateX(-50%) translateY(-50%)
+    background: url(../assets/wocintechchat1-large.jpg) no-repeat
+    background-size: cover
+
 .header-bar
   color: #FFF
   position: absolute
@@ -241,6 +249,37 @@ header
     height: 4em
     width: 100%
     //padding: 0 5em
+
+.fixed
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  background-color: $altColor
+  height: $fixedHeaderHeight
+  z-index: 100
+  display: flex
+  a, a:visited 
+    color: #FFF
+  .header-bar-top
+    display: none
+  .logo
+    flex: 1
+    background-color: $secondaryColor
+  .main-nav
+    flex: 3
+  nav ul 
+    height: 100%
+    margin: 0
+    padding: 0
+    display: flex
+    flex-flow: row wrap
+    /* This aligns items to the end line on main-axis */
+    justify-content: flex-end
+  nav li
+    padding: 1em 1.3em
+    &:hover
+      background-color: lighten($altColor, 10%)
 
 .title
   font-size: 2.8em
