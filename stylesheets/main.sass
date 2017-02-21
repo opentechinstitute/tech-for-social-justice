@@ -98,7 +98,7 @@ b
 .filters-all
   background: $altColor
   color: #fff
-  padding: 1em 0
+  //padding: 1em 0
   button
     //background: #fff
     color: $white
@@ -166,6 +166,7 @@ header
   left: 0
   right: 0
   z-index: 1
+  display: none
   a, a:visited
     color: #FFF
     text-decoration: none
@@ -290,6 +291,13 @@ header
 .search-wrapper
   position: relative
   //margin: 0 0 2em 0
+  .toggle-filters 
+    position: absolute
+    color: #fff
+    right: 0
+    top: 0
+    padding: 1em
+    font-size: 1.2em
   &:before
     font-family: 'FontAwesome'
     color: $primaryColor
@@ -359,7 +367,8 @@ footer
   display: flex
 
 .filters-all-content
-  display: block //this determines whether the filters show by default or not
+  display: none //this determines whether the filters show by default or not
+  padding: 1em 0
   > .filters:first-child
     margin-top: 1em
 .filters-controls
