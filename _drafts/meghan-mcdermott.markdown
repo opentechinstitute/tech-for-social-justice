@@ -1,7 +1,6 @@
 ---
 title: Meghan McDermott
 date: 2017-02-13 16:31:00 Z
-published: false
 author: Puck Lo
 ---
 
