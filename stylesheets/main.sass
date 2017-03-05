@@ -16,7 +16,7 @@ $white: #fefef1 //#fdfdf1 // A warm off-white:
 $black: #415851 // A cool, dark grey
 $primaryFont: 'Source Sans Pro', 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
 $headerFont: 'Source Sans Pro', 'Space Mono', 'Inconsolata', 'Courier', monospace
-$headerHeight: 700px
+$headerHeight: 15em
 $fixedHeaderHeight: 3em
 
 *
@@ -157,8 +157,8 @@ header
 
 .header-bar
   color: #FFF
-  background-color: rgba($altColor, 0)
-  transition: background-color 1000ms linear
+  background-color: rgba($altColor, 1)
+  //transition: background-color 1000ms linear
   position: absolute
   width: 100%
   height: $headerHeight
@@ -166,7 +166,7 @@ header
   left: 0
   right: 0
   z-index: 1
-  display: none
+  //display: none
   a, a:visited
     color: #FFF
     text-decoration: none

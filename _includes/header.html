@@ -1,11 +1,7 @@
 <header>
-    <video autoplay loop>
-        <source src="{{ "assets/background-vid-placeholder-blue.mp4" | relative_url }}" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
     <div class="header-bar content"> <!-- add class content back in, and remove class fixed -->
         <div class="header-bar-top">
-            <h1 class="title">The Technology and Social Justice Field Scan</h1>
+            <a href="{{ "index.html" | relative_url }}"><h1 class="title">The Technology and Social Justice Field Scan</h1></a>
             <!--<h1 class="logo"><a href="#"><i class="fa fa-chevron-left fa-1x"></i><i class="fa fa-balance-scale fa-1x"></i><i class="fa fa-chevron-right fa-1x"></i></h1>
             -->                
         </div>
@@ -14,7 +10,6 @@
                 <ul>
                     <li><a href="{{ "about.html" | relative_url }}">About</a></li>
                     <li><a href="{{ "orglist.html" | relative_url }}">Search Projects & Organizations</a></li>
-                    <li><a href="{{ "bibliography.html" | relative_url }}">Resources</a></li>
                     <li><a href="{{ "blog.html" | relative_url }}">Blog</a></li>
 
                 </ul>
