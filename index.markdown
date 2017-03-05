@@ -1,5 +1,5 @@
 ---
-title: index.html
+title: Home
 date: 2017-02-13 16:34:00 Z
 layout: home
 ---
