@@ -17,12 +17,17 @@ $black: #415851 // A cool, dark grey
 $primaryFont: 'Source Sans Pro', 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
 $headerFont: 'Source Sans Pro', 'Space Mono', 'Inconsolata', 'Courier', monospace
 $headerHeight: 15em
+$homeHeaderHeight: 700px
 $fixedHeaderHeight: 3em
 
 *
   -moz-box-sizing: border-box
   -webkit-box-sizing: border-box
   box-sizing: border-box
+
+/***--------------------------------------------/
+// Typography
+/***--------------------------------------------/
 
 html
   font-family: $primaryFont
@@ -45,12 +50,30 @@ p
   line-height: 1.8em
   margin-bottom: 1.8em
 
+b
+  font-weight: bold
+
+a, a:visited
+  color: $primaryColor
+  text-decoration: none
+  &:hover
+    color: $altColor
+    text-decoration: none
+
+/***--------------------------------------------/
+// Global layout
+/***--------------------------------------------/
 
 main
-  //min-height: 100vh
+  min-height: 100vh
   position: relative
   background: $white
+
+.not-home
   margin-top: $headerHeight
+
+.home 
+  margin-top: $homeHeaderHeight
 
 .clear
   clear: both
@@ -61,67 +84,9 @@ main
   margin: 0 auto
   clear: both
 
-.blog
-  padding: 5em 0 
-  max-width: 50em
-
-
-b
-  font-weight: bold
-
-.filters-group
-  display: flex
-  .filters
-    flex: 1
-    margin-right: 0.5em
-    &:last-child
-      margin-right: 0
-
-.filters
-  display: flex
-  margin: 0.5em 0
-  button
-    flex: 1
-    border: $white solid
-    padding: 1.2em 0.4em 1em 0.4em
-    min-width: 110px
-    font-size: 1em
-    text-align: center
-    color: #444
-    cursor: pointer
-  i
-    padding: 0 0.5em
-.filters-stars
-  font-size: 0
-  i
-    font-size: 12px
-.filters-all
-  background: $altColor
-  color: #fff
-  //padding: 1em 0
-  button
-    //background: #fff
-    color: $white
-    margin: 0 0.25em 0.5em 0.25em
-    &:hover
-      background: $white
-      color: $primaryColor
-    &.selected
-      background: $white
-      color: $primaryColor
-    &:disabled
-      opacity: 0.5
-  .filters
-    flex-wrap: wrap
-    -webkit-flex-wrap: wrap
-
-a, a:visited
-  color: $primaryColor
-  text-decoration: none
-  &:hover
-    color: $altColor
-    text-decoration: none
-
+/***--------------------------------------------/
+// Header & Footer
+/***--------------------------------------------/
 
 header
   color: #444
@@ -255,58 +220,6 @@ header
   position: absolute
   bottom: 0
 
-.search
-  background-color: lighten($altColor, 10%)
-
-.search-fixed 
-  position: fixed
-  top: $fixedHeaderHeight
-  right: 0
-  left: 0
-  z-index: 101
-
-.search-input
-  width: 100%
-  padding: 0.5em 1em 0.5em 2em
-  border: none
-  font-family: $primaryFont
-  font-weight: 300
-  font-size: 1.5em
-  background-color: transparent
-  //border-radius: 2em
-  color: $black
-  &::-webkit-input-placeholder
-    color: $white 
-    opacity: 0.7
-  &:-moz-placeholder
-    color: $white 
-    opacity: 0.7
-  &::-moz-placeholder
-    color: $white 
-    opacity: 0.7
-  &:-ms-input-placeholder 
-    color: $white 
-    opacity: 0.7
-
-.search-wrapper
-  position: relative
-  //margin: 0 0 2em 0
-  .toggle-filters 
-    position: absolute
-    color: #fff
-    right: 0
-    top: 0
-    padding: 1em
-    font-size: 1.2em
-  &:before
-    font-family: 'FontAwesome'
-    color: $primaryColor
-    position: absolute
-    top: 0.3em
-    //left: 0.5em
-    content: "\f002"
-    font-size: 2em
-
 footer
   background: #fff
   color: $black
@@ -366,6 +279,109 @@ footer
 .footer-container
   display: flex
 
+/***--------------------------------------------/
+// Orglist styles
+/***--------------------------------------------/
+
+.filters-group
+  display: flex
+  .filters
+    flex: 1
+    margin-right: 0.5em
+    &:last-child
+      margin-right: 0
+
+.filters
+  display: flex
+  margin: 0.5em 0
+  button
+    flex: 1
+    border: $white solid
+    padding: 1.2em 0.4em 1em 0.4em
+    min-width: 110px
+    font-size: 1em
+    text-align: center
+    color: #444
+    cursor: pointer
+  i
+    padding: 0 0.5em
+.filters-stars
+  font-size: 0
+  i
+    font-size: 12px
+.filters-all
+  background: $altColor
+  color: #fff
+  //padding: 1em 0
+  button
+    //background: #fff
+    color: $white
+    margin: 0 0.25em 0.5em 0.25em
+    &:hover
+      background: $white
+      color: $primaryColor
+    &.selected
+      background: $white
+      color: $primaryColor
+    &:disabled
+      opacity: 0.5
+  .filters
+    flex-wrap: wrap
+    -webkit-flex-wrap: wrap
+
+.search
+  background-color: lighten($altColor, 10%)
+
+.search-fixed 
+  position: fixed
+  top: $fixedHeaderHeight
+  right: 0
+  left: 0
+  z-index: 101
+
+.search-input
+  width: 100%
+  padding: 0.5em 1em 0.5em 2em
+  border: none
+  font-family: $primaryFont
+  font-weight: 300
+  font-size: 1.5em
+  background-color: transparent
+  //border-radius: 2em
+  color: $black
+  &::-webkit-input-placeholder
+    color: $white 
+    opacity: 0.7
+  &:-moz-placeholder
+    color: $white 
+    opacity: 0.7
+  &::-moz-placeholder
+    color: $white 
+    opacity: 0.7
+  &:-ms-input-placeholder 
+    color: $white 
+    opacity: 0.7
+
+.search-wrapper
+  position: relative
+  //margin: 0 0 2em 0
+  .toggle-filters 
+    position: absolute
+    color: #fff
+    right: 0
+    top: 0
+    padding: 1em
+    font-size: 1.2em
+  &:before
+    font-family: 'FontAwesome'
+    color: $primaryColor
+    position: absolute
+    top: 0.3em
+    //left: 0.5em
+    content: "\f002"
+    font-size: 2em
+
+
 .filters-all-content
   display: none //this determines whether the filters show by default or not
   padding: 1em 0
@@ -402,6 +418,18 @@ footer
 .filters-state
   margin: 1em 0
   text-align: center
+
+/***--------------------------------------------/
+// Blog styles
+/***--------------------------------------------/ 
+
+.blog
+  padding: 5em 0 
+  max-width: 50em
+
+/***--------------------------------------------/
+// Media Queries
+/***--------------------------------------------/ 
 
 @media screen and (max-width: 490px)
   .header-bar

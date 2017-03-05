@@ -4,12 +4,34 @@
   {% include head.html %}
 
   <body>
-  
+
       {% include header-home.html %}
 
-    <main class="page-content" aria-label="Content">
+    <main class="home page-content" aria-label="Content">
       <div class="wrapper">
-        {{ content }}
+        <section class="home-about">
+          {{ content }}
+        </section>
+        <section class="home-orgs">
+          <h2>Project Partners</h2>
+            <ul>
+                <li><a href="https://aspirationtech.org/" alt="Aspiration Tech"><img src="{{ "assets/logos/aspiration-logo.gif" | relative_url }}" alt="Aspiration Tech" title="Aspiration Tech"></a></li>
+                
+                <li><a href="https://www.theengineroom.org/" alt="The Engine Room"><img src="{{ "assets/logos/engine-room-logo-2.png" | relative_url }}" alt="The Engine Room" title="The Engine Room"></a></li>
+                
+                <li><a href="https://palantetech.coop/" alt="Palante Tech Cooperative"><img src="{{ "assets/logos/palante-logo.png" | relative_url }}" alt="Palante Tech Cooperative" title="Palante Tech Cooperative"></a></li>
+                
+                <li><a href="http://www.hackthehood.org/" alt="Hack the Hood"><img src="{{ "assets/logos/hack-the-hood-logo.png" | relative_url }}" alt="Hack the Hood" title="Hack the Hood"></a></li>
+                
+                <li><a href="https://www.teamupturn.com/" alt="Upturn"><img src="{{ "assets/logos/upturn-logo-2.svg" | relative_url }}" alt="Upturn" title="Upturn"></a></li>
+                
+                <li><a href="https://alliedmedia.org/" alt="Allied Media Projects"><img src="{{ "assets/logos/amp-logo.jpg" | relative_url }}" alt="Allied Media Projects" title="Allied Media Projects"></a></li>
+                
+                <li><a href="https://mayfirst.org/en/index.html" alt="May First/People Link"><img src="{{ "assets/logos/mayfirst-logo.png" | relative_url }}" alt="May First/People Link" title="May First/People Link"></a></li>
+            </ul>
+        </section>
+        <section class="home-people">
+        </section>
       </div>
     </main>
 
