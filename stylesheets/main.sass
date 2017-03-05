@@ -16,7 +16,7 @@ $white: #fefef1 //#fdfdf1 // A warm off-white:
 $black: #415851 // A cool, dark grey
 $primaryFont: 'Source Sans Pro', 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
 $headerFont: 'Source Sans Pro', 'Space Mono', 'Inconsolata', 'Courier', monospace
-$headerHeight: 15em
+$headerHeight: 17em
 $homeHeaderHeight: 700px
 $fixedHeaderHeight: 3em
 
@@ -72,9 +72,6 @@ main
 .not-home
   margin-top: $headerHeight
 
-.home 
-  margin-top: $homeHeaderHeight
-
 .clear
   clear: both
 
@@ -82,11 +79,8 @@ main
   //max-width: 960px
   max-width: 1200px
   margin: 0 auto
+  padding: 2em 2em
   clear: both
-
-/***--------------------------------------------/
-// Header & Footer
-/***--------------------------------------------/
 
 header
   color: #444
@@ -278,6 +272,19 @@ footer
 
 .footer-container
   display: flex
+
+/***--------------------------------------------/
+// Home styles
+/***--------------------------------------------/
+
+.home 
+  margin-top: $homeHeaderHeight
+
+.home-orgs
+  background-color: $black
+
+.home-people
+  background-color: $secondaryColor
 
 /***--------------------------------------------/
 // Orglist styles
