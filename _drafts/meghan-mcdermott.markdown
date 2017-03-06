@@ -6,6 +6,8 @@ author: Puck Lo
 
 When New York City rolled out its plan in February to replace decrepit pay phone booths with 7,500 shiny wireless kiosks connected to fiber-optic cables boasting connection speeds 100 times faster than average public WiFi hotspot, the promise of free, no-strings-attached, super fast public WiFi seemed — to some skeptical New Yorkers — too good to be true.
 
+<!--break-->
+
 It was, said Meghan McDermott, an educator and longtime activist who has worked on promoting media literacy, protecting public space and redistributing resources. She directs digital skills and web literacy educational programming for the Mozilla Foundation with the aim of “helping folks not just use the web but make it.” 
 
 That means she coordinates with educators, libraries, museums, schools, nonprofits and entrepreneurs to set up online and in-person, hands-on, multidisciplinary skillshares, meetups, hackathons and after-school programs for middle and high school-aged youth. Students learn open-source software coding and other tech skills by working on collaborative projects, outside of conventional classroom settings, to solve real-world problems. One app, RideW/Me — developed in a Mozilla program by a team of volunteer students, teachers, developers and designers — helps teens in Chicago to find after-school programs as well as peers with whom to travel on public transit. 
