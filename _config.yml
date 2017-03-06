@@ -27,6 +27,11 @@ defaults:
     twitter: ''
     role: ''
     organization: ''
+- scope:
+    path: ''
+    type: posts
+  values:
+    header-photo: ''
 email: maya@opentechinstitute.org
 description: This is the website for the Technology and Social Justice Field Scan,
   a participatory action research project to understand how people and what people
