@@ -4,7 +4,7 @@
 @import reset
 @import fonts
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700')
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700')
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900')
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Raleway|Space+Mono|Source+Code+Pro')
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
 
@@ -15,15 +15,10 @@ $altSecondaryColor: #f5743d // brighter red-orange
 $white: #fefef1 //#fdfdf1 // A warm off-white: 
 $black: #415851 // A cool, dark grey
 $primaryFont: 'Source Sans Pro', 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
-$headerFont: 'Source Sans Pro', 'Space Mono', 'Inconsolata', 'Courier', monospace
+$headerFont: 'Space Mono', 'Source Sans Pro', 'Inconsolata', 'Courier', monospace
 $headerHeight: 17em
 $homeHeaderHeight: 700px
 $fixedHeaderHeight: 3em
-
-*
-  -moz-box-sizing: border-box
-  -webkit-box-sizing: border-box
-  box-sizing: border-box
 
 /***--------------------------------------------/
 // Typography
@@ -34,11 +29,12 @@ html
   color: $black
 
 h1, h2, h3, h4, h5, h6 
-  font-family: $headerFont
+  font-family: $primaryFont
   line-height: 140%
 
 h1
-  font-weight: 300
+  font-family: $headerFont
+  font-weight: 900
   font-size: 1.4em
   //line-height: 2.8em
 
@@ -63,6 +59,11 @@ a, a:visited
 /***--------------------------------------------/
 // Global layout
 /***--------------------------------------------/
+
+*
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
 
 main
   min-height: 100vh
@@ -111,8 +112,8 @@ header
     -moz-transform: translateX(-50%) translateY(-50%)
     -webkit-transform: translateX(-50%) translateY(-50%)
     transform: translateX(-50%) translateY(-50%)
-    background: url(../assets/wocintechchat1-large.jpg) no-repeat
-    background-size: cover
+    background: url(../assets/background-header-blue.png) no-repeat
+    background-size: 100% 100%
 
 .header-bar
   color: #FFF
@@ -140,7 +141,8 @@ header
       border: 2px solid #fff
       text-decoration: none
   .main-nav 
-    //height: 100%
+    float: right
+    text-align: right
     .active
       background-color: lighten($altColor, 10%)
   nav ul 
@@ -167,7 +169,7 @@ header
   .header-bar-top
     min-height: 11em
     width: 100%
-    position: relative
+    //position: relative
     //padding: 4em 4em 0 4em
   .header-bar-bottom
     height: 4em
@@ -206,12 +208,15 @@ header
       background-color: lighten($altColor, 10%)
 
 .title
+  margin: 6rem auto 1.2rem auto
+  padding-left: 4.5rem
+  padding-right: 4.5rem
   font-size: 2.8em
-  text-align: left
+  text-align: center
   line-height: 135%
-  border-bottom: 1px #FFF solid
-  padding-bottom: 0.5em
-  position: absolute
+  //position: absolute
+  margin-left: auto
+  margin-right: auto
   bottom: 0
 
 footer

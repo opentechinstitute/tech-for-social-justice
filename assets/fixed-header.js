@@ -18,8 +18,8 @@ $( document ).ready(function() {
 	  	  fixedSearch = $('.search'),
 	      scroll = $(window).scrollTop();
 
-	  if (scroll >= 100) fixedHeader.removeClass('content').addClass('fixed');
-	  else fixedHeader.removeClass('fixed').addClass('content');
+	  if (scroll >= 100) fixedHeader.addClass('fixed');
+	  else fixedHeader.removeClass('fixed');
 
 	  if (scroll >= 650) fixedSearch.addClass('search-fixed');
 	  else fixedSearch.removeClass('search-fixed');
