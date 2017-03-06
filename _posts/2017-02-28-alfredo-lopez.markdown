@@ -1,7 +1,7 @@
 ---
 title: Alfredo Lopez
 date: 2017-02-28 17:23:00 Z
-cover image: "/uploads/alfredo3.png"
+header-image: "/uploads/alfredo3.png"
 author: Puck Lo
 ---
 
