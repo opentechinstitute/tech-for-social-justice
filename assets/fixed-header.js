@@ -18,10 +18,10 @@ $( document ).ready(function() {
 	  	  fixedSearch = $('.search'),
 	      scroll = $(window).scrollTop();
 
-	  if (scroll >= 100) fixedHeader.addClass('fixed');
+	  if (scroll >= 340) fixedHeader.addClass('fixed');
 	  else fixedHeader.removeClass('fixed');
 
-	  if (scroll >= 650) fixedSearch.addClass('search-fixed');
+	  if (scroll >= 342) fixedSearch.addClass('search-fixed');
 	  else fixedSearch.removeClass('search-fixed');
 	});
 });
