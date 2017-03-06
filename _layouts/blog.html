@@ -1,5 +1,18 @@
 ---
-layout: blog
+layout: default
 ---
 
-blog content goes here
+<section class="blog content">
+	<ul>
+	{% for post in site.posts %}
+		<li>
+			<h1>{{ post.title }}</h1>
+			<h2>by {{ post.author }}</h2>
+			<p>{{ post.content | split:'<!--break-->' | first }}
+   {% if post.content contains '<!--break-->' %}
+      <a href="{{ post.url }}">read more</a>
+   {% endif %}</p>
+		</li>
+	{% endfor %}
+	</ul>
+</section>

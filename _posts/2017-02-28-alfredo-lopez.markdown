@@ -3,6 +3,7 @@ title: Alfredo Lopez
 date: 2017-02-28 17:23:00 Z
 header-image: "/uploads/alfredo1.jpg"
 author: Puck Lo
+layout: post
 ---
 
 In July, police shot and killed Alton Sterling and Philando Castile — two unarmed Black men — in a 48-hour period. Videos of their deaths, filmed on cellphones by witnesses, went public almost immediately. Protests erupted across the US, and “Black Lives Matter” again became a rallying cry as thousands of people blocked highways, occupied government buildings and demonstrated in city streets. Within hours, a right-wing backlash swept across the nation, fueled by the actions of an unaffiliated US military veteran who shot five police officers at a march in Dallas. Not long afterward, the Black Lives Matter (BLM) national website mysteriously went down.
