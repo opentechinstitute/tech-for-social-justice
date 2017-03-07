@@ -1,5 +1,5 @@
 ---
-title: About
+title: About the Tech for Social Justice Field Scan
 date: 2017-02-13 19:43:00 Z
 layout: about
 ---

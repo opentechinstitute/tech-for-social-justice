@@ -18,7 +18,7 @@ $( document ).ready(function() {
 	  	  fixedSearch = $('.search'),
 	      scroll = $(window).scrollTop();
 
-	  if (scroll >= 340) fixedHeader.addClass('fixed');
+	  if (scroll >= 340) fixedHeader.addClass('fixed').removeAttr('style');
 	  else fixedHeader.removeClass('fixed');
 
 	  if (scroll >= 342) fixedSearch.addClass('search-fixed');
