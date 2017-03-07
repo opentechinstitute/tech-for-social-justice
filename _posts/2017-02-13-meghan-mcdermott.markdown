@@ -1,5 +1,5 @@
 ---
-title: 'Who is: Meghan McDermott'
+title: 'Practitioner Profile: Meghan McDermott'
 date: 2017-02-13 16:31:00 Z
 author: Puck Lo
 ---
