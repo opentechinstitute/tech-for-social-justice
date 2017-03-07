@@ -14459,7 +14459,7 @@
 	    } else {
 	      var result = '<li class="result"><div class="result-preview"><h2><span>' + _Util2.default.truncate(data.name, 40) + '</span></h2><p class="result-description">' + _Util2.default.truncate(data.description, 132) + '</p>';
 	      if (data.howtech.length > 1) {
-	        result += '<br><p>How they use tech: ' + data.howtech + '</p>';
+	        result += '<p class="result-description">How they use tech: ' + data.howtech + '</p>';
 	      }
 	      result += '</div><div class="result-info">';
 	      if (data.services.length > 0) {

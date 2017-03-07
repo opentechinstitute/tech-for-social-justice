@@ -6,7 +6,7 @@ layout: default
 	<ul>
 	{% for post in site.posts %}
 		<li>
-			<h1>{{ post.title }}</h1>
+			<a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
 			<h2>by {{ post.author }}</h2>
 			<p>
 				{{ post.content | split:'<!--break-->' | first }}
