@@ -6,13 +6,16 @@ layout: default
 	<ul>
 	{% for post in site.posts %}
 		<li class="post">
-			<a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
-			<h2>by {{ post.author }}</h2>
-			<h2>{{ post.date | date: "%B %-d, %Y"}}</h2>
-			<p>
+			{% if post.header-image %}
+			<div class="image" style="background-image: url({{ post.header-image }})"></div> 
+			{% endif %}
+			<div class="text">
+				<a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+				<h2>by {{ post.author }}</h2>
+				<h2>{{ post.date | date: "%B %-d, %Y"}}</h2>
 				{{ post.content | truncatewords: 50 }}
-      				<a href="{{ post.url }}">read more</a>
-   			</p>
+	      		<a href="{{ post.url }}">read more</a>
+	   		</div>
 		</li>
 	{% endfor %}
 	</ul>
