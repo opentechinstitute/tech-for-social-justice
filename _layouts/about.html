@@ -33,7 +33,7 @@ layout: default
 	    			<h1 class="name">{{ person.title }}</h1>
 	    			<h2>{{ person.organization }}</h2>
 	    			<a class="twitter" href="https://twitter.com/{{ person.twitter }}"><i class="fa fa-twitter fa-2x"></i></a>
-	      			<p class="short-bio">{{ person.content }}</p>
+	      			<p class="short-bio">{{ person.content | truncate: 280 }}</p>
 	    		</div>
 	    	</li>
 	    {% endif %}
