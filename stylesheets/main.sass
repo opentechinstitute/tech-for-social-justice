@@ -17,7 +17,7 @@ $black: #415851 // A cool, dark grey
 $primaryFont: 'Source Sans Pro', 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
 $headerFont: 'Space Mono', 'Source Sans Pro', 'Inconsolata', 'Courier', monospace
 $headerHeight: 24em
-$homeHeaderHeight: 700px
+$homeHeaderHeight: 600px
 $fixedHeaderHeight: 3em
 
 /***--------------------------------------------/
@@ -69,6 +69,9 @@ main
   min-height: 100vh
   position: relative
   background: $white
+
+.hide 
+  display: none !important
 
 .not-home
   margin-top: $headerHeight
@@ -177,7 +180,7 @@ header
     width: 100%
     //padding: 0 5em
 
-.fixed
+.header-bar-fixed
   position: fixed
   top: 0
   left: 0
@@ -210,6 +213,7 @@ header
       background-color: lighten($altColor, 10%)
 
 .title
+  color: #fff
   margin: 10rem auto 1.2rem auto
   padding-left: 4.5rem
   padding-right: 4.5rem

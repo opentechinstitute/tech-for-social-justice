@@ -14,14 +14,14 @@
 
 $( document ).ready(function() {
 	$(window).scroll(function(){
-	  var fixedHeader = $('.header-bar'),
+	  var fixedHeader = $('.header-bar-fixed'),
 	  	  fixedSearch = $('.search'),
 	      scroll = $(window).scrollTop();
 
-	  if (scroll >= 340) fixedHeader.addClass('fixed').removeAttr('style');
-	  else fixedHeader.removeClass('fixed');
+	  if (scroll >= 100) fixedHeader.removeClass('hide');
+	  else fixedHeader.addClass('hide');
 
-	  if (scroll >= 342) fixedSearch.addClass('search-fixed');
+	  if (scroll >= 650) fixedSearch.addClass('search-fixed');
 	  else fixedSearch.removeClass('search-fixed');
 	});
 });

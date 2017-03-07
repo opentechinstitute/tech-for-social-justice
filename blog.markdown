@@ -1,4 +1,4 @@
 ---
-title: Blog
+title: Project Blog
 layout: blog
 ---
