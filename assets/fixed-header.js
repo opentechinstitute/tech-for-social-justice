@@ -21,7 +21,7 @@ $( document ).ready(function() {
 	  if (scroll >= 100) fixedHeader.removeClass('hide');
 	  else fixedHeader.addClass('hide');
 
-	  if (scroll >= 650) fixedSearch.addClass('search-fixed');
-	  else fixedSearch.removeClass('search-fixed');
+	  // if (scroll >= 650) fixedSearch.addClass('search-fixed');
+	  // else fixedSearch.removeClass('search-fixed');
 	});
 });
