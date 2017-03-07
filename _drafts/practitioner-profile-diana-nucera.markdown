@@ -38,11 +38,6 @@ To date, in Detroit, 36 Digital Stewards have been trained in 6 neighborhoods, a
 
 “I did video calls every other month to support them and troubleshoot any problem they might have run into in the organizing or teaching phases,” said Nucera of her far-flung colleagues.
 
-Despite the program’s success, said Nucera, until recently, Detroit Community Technology Project’s faced a surprising obstacle in its efforts to expand: A 2005? 9? report published by the University of Michigan evaluated a comparable but failed effort made by the university in YEAR— in partnership with local, private entrepreneurs — to install a corridor of wireless hotspots and provide several computer labs and computer training courses for residents. TKTKTK Since the report published, Nucera said, it has been “a hurdle” to find funding for any community wireless projects in Detroit. The report, she said, blames the failure of that wireless project on the slow speed of mesh technologies and the failure of giant telecommunications companies to continue donating broadband connectivity — not on the fact that the people leading the project did not meaningfully involve or train community residents.
-
-“There was no thought of sustainability, no thought of community ownership, no thought of who is going to maintain it if it broke,” she said. “The technologists are gone. They're not even from Detroit.”
-///
-
 The Digital Stewards model has been successful because unlike many technology projects that “parachute in” outside experts, it builds the skills, knowledge, and ownership of local community memberstakes an opposite approach, Nucera said. 
 
 “The training heavily emphasizes community organizing and mapping,” she said. “Stewards think about how a network can support its community. They learn facilitation skills, to survey, to have community meetings to understand what people use the Internet for. They build a network together that hopefully meets those needs. There's a cohort of stewards that facilitate use and maintain it.”
