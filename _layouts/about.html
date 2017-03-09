@@ -1,59 +1,62 @@
 ---
 layout: default
 ---
+<div class="content-wide">
+	<section class="about-intro">
+	    
+	    
+	    <article>
+	        <div class="about-body">
+	            {{ page.content | markdownify }}
+	        </div>
+	    </article>
+	    <aside>
+	        <p><b>The Technology and Social Justice Field Scan</b> is a participatory action research project led by Research Action Design and the Open Technology Institute.</p>
+	    </aside>
+	</section>
+	<section class="about-letter">
+	    <h1>Project Lead</h1>
 
-<section class="content about-intro">
-    <article>
-        <div class="about-body">
-            {{ page.content | markdownify }}
-        </div>
-    </article>
-    <aside>
-        <p><b>The Technology and Social Justice Field Scan</b> is a participatory action research project led by Research Action Design and the Open Technology Institute.</p>
-    </aside>
-</section>
-<section class="content about-letter">
-    <h1>Project Lead</h1>
+	    <p><b>Research Action Design (RAD)</b> uses community-led research, transformative media organizing, technology development, and collaborative design to build the power of grassroots social movements. RAD is a worker-owned collective. Our projects are grounded in the needs and leadership of communities in the struggle for justice and liberation. <a href="http://rad.cat">http://rad.cat</a></p>
 
-    <p><b>Research Action Design (RAD)</b> uses community-led research, transformative media organizing, technology development, and collaborative design to build the power of grassroots social movements. RAD is a worker-owned collective. Our projects are grounded in the needs and leadership of communities in the struggle for justice and liberation. <a href="http://rad.cat">http://rad.cat</a></p>
+	    <h1>Project Co-Lead/Anchor Partner</h1>
 
-    <h1>Project Co-Lead/Anchor Partner</h1>
+	    <p><b>The Open Technology Institute (OTI) at New America</b> is committed to freedom and social justice in the digital age. To achieve these goals, it intervenes in traditional policy debates, builds technology, and deploys tools with communities.<a href="https://www.newamerica.org/oti">https://www.newamerica.org/oti</a></p>
 
-    <p><b>The Open Technology Institute (OTI) at New America</b> is committed to freedom and social justice in the digital age. To achieve these goals, it intervenes in traditional policy debates, builds technology, and deploys tools with communities.<a href="https://www.newamerica.org/oti">https://www.newamerica.org/oti</a></p>
+		<h1>Core Research Team</h1>
+		<ul class="people">
+		{% assign sorted_people = site.people | sort:"position" %}
+	    {% for person in sorted_people %}
+	    	{% if person.role == 'core' %}
+		    	<li class="person">
+		    		<div class="person-photo" style="background-image:url({{ person.photo | relative_url }});"></div>
+		    		<div class="person-info">
+		    			<h1 class="name">{{ person.title }}<a class="twitter" href="https://twitter.com/{{ person.twitter }}"><i class="fa fa-twitter fa-2x"></i></a></h1>
+		    			<h2>{{ person.organization }}</h2>
+		    			
+		      			<p class="short-bio">{{ person.content }}</p>
+		    		</div>
+		    	</li>
+		    {% endif %}
+	  	{% endfor %}
+	  	</ul>
 	
-	<h1>Core Research Team</h1>
-	<ul class="people">
-	{% assign sorted_people = site.people | sort:"position" %}
-    {% for person in sorted_people %}
-    	{% if person.role == 'core' %}
-	    	<li class="person">
-	    		<div class="person-photo" style="background-image:url({{ person.photo | relative_url }});"></div>
-	    		<div class="person-info">
-	    			<h1 class="name">{{ person.title }}</h1>
-	    			<h2>{{ person.organization }}</h2>
-	    			<a class="twitter" href="https://twitter.com/{{ person.twitter }}"><i class="fa fa-twitter fa-2x"></i></a>
-	      			<p class="short-bio">{{ person.content | truncate: 280 }}</p>
-	    		</div>
-	    	</li>
-	    {% endif %}
-  	{% endfor %}
-  	</ul>
-	
-	<h1>Partners</h1>
-	<ul class="people">
-    {% for person in sorted_people %}
-    	{% if person.role == 'partner' %}
-	    	<li class="person">
-	    		<div class="person-photo" style="background-image:url({{ person.photo | relative_url }});"></div>
-	    		<div class="person-info">
-	    			<h1 class="name">{{ person.title }}</h1>
-	    			<a class="twitter" href="https://twitter.com/{{ person.twitter }}"><i class="fa fa-twitter fa-2x"></i></a>
-					<h2 class="person-org">{{ person.organization }}</h2>
-	      			<p class="short-bio">{{ person.content }}</p>
-	    		</div>
-	    	</li>
-	    {% endif %}
-  	{% endfor %}
-  	</ul>
+		<h1>Partners</h1>
+		<ul class="people">
+	    {% for person in sorted_people %}
+	    	{% if person.role == 'partner' %}
+		    	<li class="person">
+		    		<div class="person-photo" style="background-image:url({{ person.photo | relative_url }});"></div>
+		    		<div class="person-info">
+		    			<h1 class="name">{{ person.title }}</h1>
+		    			<a class="twitter" href="https://twitter.com/{{ person.twitter }}"><i class="fa fa-twitter fa-2x"></i></a>
+						<h2 class="person-org">{{ person.organization }}</h2>
+		      			<p class="short-bio">{{ person.content }}</p>
+		    		</div>
+		    	</li>
+		    {% endif %}
+	  	{% endfor %}
+	  	</ul>
 
-</section>
+	</section>
+</div>
