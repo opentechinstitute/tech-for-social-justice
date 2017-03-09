@@ -3,23 +3,23 @@
   padding-bottom: 3em
 
 .person
-  display: inline-block
-  width: 31%
+  display: flex
+  width: 100%
   background-color: #fbf5e4 //rgba(0,0,0,0.0625) //#fdf8e8
-  margin: 1%
+  margin-bottom: 1em
   position: relative
   vertical-align: top
   overflow: hidden
-  height: 46em
 
 .person-photo
   height: 300px
   background-size: cover
   background-position: center center
+  flex: 1
 
 .person-info
-  padding: 1em
-  //height: 300px
+  padding: 1em 1em 1em 1.5em
+  flex: 2
   h2
     font-size: 1em
 
@@ -28,7 +28,9 @@
 
 .twitter
   display: inline
-  margin-left: 10px
+  position: absolute
+  top: 1em
+  right: 1em
 
 @media screen and (max-width: 990px)
   .person
