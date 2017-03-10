@@ -17,14 +17,13 @@
     padding: 0 3em 0 0
     p
       font-size: 0.8em
-      //color: #767676
       &:first-child
-        //color: #555
         font-size: 1em
   aside
     flex: 2
-    //color: #555
     margin-top: 4.5em
+    @include small
+      display: none
 
 .about-intro
   article
@@ -38,7 +37,7 @@
 
 .about-letter
   padding-top: 1em
-  padding-bottom: 10em
+  //padding-bottom: 10em
   p
     margin: 1em 0
     color: #555

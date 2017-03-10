@@ -82,6 +82,8 @@ main
 
 .not-home
   margin-top: $headerHeight
+  @include small 
+    margin-top: 20em
 
 .clear
   clear: both
@@ -159,6 +161,8 @@ footer
   .copyright
     flex: 1
     line-height: 2.5
+  @include small
+    padding: 0
 
 .footer-container
   display: flex
@@ -312,7 +316,7 @@ footer
 /***--------------------------------------------/ 
 
 .blog
-  padding: 5em 0 
+  padding: 5em 2em 
   max-width: 50em
 
 .post
@@ -352,17 +356,17 @@ footer
   .content
   padding: 2em 0.5em
 
-.content-narrow
-  padding: 2em 1em 
+  .content-narrow
+    padding: 2em 1em 
 
-.content-wide
-  padding: 2em 1em
+  .content-wide
+    padding: 2em 1em
 
-.footer-container 
-  display: block
+  .footer-container 
+    display: block
 
-.about-intro, .about-letter, .faq
-  padding: 3em 0.5em
+  .about-intro, .about-letter, .faq
+    padding: 3em 0.5em
   
   footer
     display: block
