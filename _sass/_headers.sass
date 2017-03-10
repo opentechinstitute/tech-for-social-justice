@@ -1,0 +1,181 @@
+header
+  h1
+    a, a:visited, a:hover
+      color: #fff !important
+      text-decoration: none
+  .logo
+    float: left
+    font-size: 1.5em
+    font-family: $primaryFont
+    font-weight: 500
+    padding: 0.5em 1.2em
+    line-height: normal
+  video
+    position: fixed
+    top: 50%
+    left: 50%
+    min-width: 100%
+    min-height: 100%
+    width: auto
+    height: auto
+    z-index: -100
+    -ms-transform: translateX(-50%) translateY(-50%)
+    -moz-transform: translateX(-50%) translateY(-50%)
+    -webkit-transform: translateX(-50%) translateY(-50%)
+    transform: translateX(-50%) translateY(-50%)
+    background: url(../assets/background-header-blue.png) no-repeat
+    background-size: 100% 100%
+
+.header-bar
+  color: #FFF
+  background-color: rgba($altColor, 1)
+  background-position: center
+  background-size: cover
+  background-image: url(../assets/background-header-blue.png)
+  box-shadow: 0px 2px 25px 0px rgba(0,0,0,0.32)
+  //transition: background-color 1000ms linear
+  position: absolute
+  width: 100%
+  height: $headerHeight
+  top: 0
+  left: 0
+  right: 0
+  z-index: 1
+  //display: none
+  a, a:visited
+    color: #FFF
+    text-decoration: none
+    &:hover
+      color: #FFF
+      text-decoration: none
+
+.title
+  color: #fff
+  margin: 10rem auto 1.2rem auto
+  padding-left: 4.5rem
+  padding-right: 4.5rem
+  font-size: 2.8em
+  text-align: center
+  line-height: 135%
+  margin-left: auto
+  margin-right: auto
+  bottom: 0
+
+.main_h 
+  position: fixed
+  max-height: 70px
+  z-index: 999
+  width: 100%
+  background: none
+  overflow: hidden
+  -webkit-transition: all 0.3s
+  transition: all 0.3s
+  opacity: 0
+  top: -100px
+  @include small 
+    padding-top: 25px
+
+.sticky 
+  background-color: $altColor
+  opacity: 1
+  top: 0px
+
+.row 
+  width: 100%
+  //max-width: 940px
+  margin: 0 auto
+  position: relative
+  padding: 0 2%
+
+/***--------------------------------------------/
+// Navigation
+/***--------------------------------------------/
+
+.open-nav 
+  max-height: 400px !important
+  .mobile-toggle 
+    transform: rotate(-90deg)
+    -webkit-transform: rotate(-90deg)
+
+.main-nav 
+  float: right
+  width: 60%
+  @include small 
+    width: 100%  
+  ul 
+    list-style: none
+    overflow: hidden
+    text-align: right
+    float: right
+    @include small 
+      padding-top: 10px
+      margin-bottom: 12px
+      float: left
+      text-align: center
+      width: 100%
+    li 
+      display: inline-block
+      //margin-left: 35px
+      line-height: 1.5
+      padding: 1em
+      &:hover
+        background-color: lighten($altColor, 10%)
+      @include small 
+        width: 100%
+        padding: 7px 0
+        margin: 0
+    a 
+      color: $white
+      &:hover
+        color: $white
+      //text-transform: uppercase
+      //font-size: 12px
+
+.mobile-toggle 
+  display: none
+  cursor: pointer
+  font-size: 20px
+  position: absolute
+  right: 22px
+  top: 0
+  width: 30px
+  -webkit-transition: all 200ms ease-in
+  -moz-transition: all 200ms ease-in
+  transition: all 200ms ease-in
+  @include small 
+    display: block
+  span 
+    width: 30px
+    height: 4px
+    margin-bottom: 6px
+    border-radius: 1000px
+    background: $white
+    display: block
+
+/***--------------------------------------------/
+// Animation
+/***--------------------------------------------/
+
+@-webkit-keyframes scroll 
+  0% 
+    opacity: 1
+    -webkit-transform: translateY(0)
+    transform: translateY(0)
+  
+  100% 
+    opacity: 0
+    -webkit-transform: translateY(20px)
+    transform: translateY(20px)
+
+@keyframes scroll 
+  0% 
+    opacity: 1
+    -webkit-transform: translateY(0)
+    -ms-transform: translateY(0)
+    transform: translateY(0)
+  
+  100% 
+    opacity: 0
+    -webkit-transform: translateY(20px)
+    -ms-transform: translateY(20px)
+    transform: translateY(20px)
