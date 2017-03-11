@@ -4,4 +4,4 @@ date: 2017-02-13 16:34:00 Z
 layout: home
 ---
 
-OTI and RAD are conducting a community-led field scan of “technology use in the public interest”  that centers diverse practitioners and identifies challenges and opportunities. This field scan will identify people, groups, institutions, and networks in the space, and explore how best to foster the growth of the field. This is a participatory research project that will be guided by Project Partners (practitioners) and an Advisory Board including allied organizations. 
+The Technology for Social Justice Field Scan is a participatory action research project intended to better understand the types of work currently being done with technology for social justice (and more broadly, in the public interest), as well as the pathways people take into this work. The goal is to identify people, groups, and networks who work in this space, including those who are not ‘the usual suspects’ in the civic technology world, and to learn from them: what their paths into the work have been; what they see as their greatest constraints; where they see barriers; and what they feel is most needed to grow and diversify the field.
