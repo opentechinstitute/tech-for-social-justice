@@ -4,7 +4,7 @@ This is the site for the Technology for Social Justice Field Scan, a participato
 
 ## Editing Content
 
-After getting permission from someone on the T4SJ team, you can edit photos, text, and posts through the [Siteleaf](https://www.siteleaf.com/) CMS-style interface. Just create and account and start editing. It's rly easy.
+After getting permission from someone on the T4SJ team (like [Maya???](mailto:maya@opentechinstitute.org), you can edit photos, text, and posts through the [Siteleaf](https://www.siteleaf.com/) CMS-style interface. Just create and account and start editing. It's rly easy.
 
 ## Quick Setup
 
