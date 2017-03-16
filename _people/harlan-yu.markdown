@@ -2,7 +2,7 @@
 title: Harlan Yu
 date: 2017-03-05 01:01:00 Z
 position: 4
-photo: https://www.harlanyu.com/static/images/yu.harlan.jpg
+photo: "/uploads/harlanyu-headshot.png"
 twitter: harlanyu
 role: partner
 organization: Upturn
