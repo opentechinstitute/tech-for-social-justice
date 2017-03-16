@@ -32,7 +32,7 @@ layout: default
 		    	<li class="person">
 		    		<div class="person-photo" style="background-image:url({{ person.photo | relative_url }});"></div>
 		    		<div class="person-info">
-		    			<h1 class="name">{{ person.title }}<a class="twitter" href="https://twitter.com/{{ person.twitter }}"><i class="fa fa-twitter fa-2x"></i></a></h1>
+		    			<h1 class="name">{{ person.title }}{% if person.twitter %}<a class="twitter" href="https://twitter.com/{{ person.twitter }}"><i class="fa fa-twitter fa-2x"></i></a>{% endif %}</h1>
 		    			<h2>{{ person.organization }}</h2>
 		    			
 		      			<p class="short-bio">{{ person.content }}</p>
@@ -50,7 +50,7 @@ layout: default
 		    		<div class="person-photo" style="background-image:url({{ person.photo | relative_url }});"></div>
 		    		<div class="person-info">
 		    			<h1 class="name">{{ person.title }}</h1>
-		    			<a class="twitter" href="https://twitter.com/{{ person.twitter }}"><i class="fa fa-twitter fa-2x"></i></a>
+		    			{% if person.twitter %}<a class="twitter" href="https://twitter.com/{{ person.twitter }}"><i class="fa fa-twitter fa-2x"></i></a>{% endif %}
 						<h2 class="person-org">{{ person.organization }}</h2>
 		      			<p class="short-bio">{{ person.content }}</p>
 		    		</div>
