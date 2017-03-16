@@ -1,6 +1,7 @@
 ---
 title: Kim Garcia
 date: 2017-03-16 19:39:00 Z
+position: 8
 photo: "/uploads/Kim_Garcia.jpg"
 twitter: recordshift
 role: partner
