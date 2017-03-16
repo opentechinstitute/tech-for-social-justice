@@ -7,4 +7,4 @@ role: partner
 organization: May First/People Link
 ---
 
-Alfredo Lopez is an activist, writer, media producer, teacher and organizer in Brooklyn, New York. He is currently a well-known Internet activist and the Co-Director of May First/People Link, a progressive Internet users' organization and the Internet's oldest progressive provider.
+Veteran activist and writer Alfredo Lopez is a founder and member of the Leadership Committee of May First/People Link, the country's largest progressive Internet membership organization. In his 50 years as a movement activist, he's been involved in many struggles and issues. He has written five published books and currently writes on technology for the website [This Can't Be Happening](thiscantbehappening.net). He lives in Brooklyn.
