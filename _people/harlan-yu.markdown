@@ -1,7 +1,7 @@
 ---
 title: Harlan Yu
 date: 2017-03-05 01:01:00 Z
-position: 3
+position: 4
 photo: https://www.harlanyu.com/static/images/yu.harlan.jpg
 twitter: harlanyu
 role: partner
