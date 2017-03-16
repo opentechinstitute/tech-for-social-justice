@@ -2,12 +2,10 @@
 
 This is the site for the Technology for Social Justice Field Scan, a participatory action research project led by [Research Action Design](http://rad.cat) and supported by the [Open Technology Institute](https://opentechinstitute.org) at [The New America Foundation](https://newamerica.org). It was developed by [Maya Wagoner](https://github.com/mayawagon).
 
-## Setup
+## Quick Setup
 
-This website is running on [Jekyll](https://jekyllrb.com/), and uses the [Jekyll Admin Interface](https://jekyll.github.io/jekyll-admin/).
+This website is running on [Jekyll](https://jekyllrb.com/), and uses the [Jekyll Admin Interface](https://jekyll.github.io/jekyll-admin/). To use it, you'll need to have Ruby, Git, and Jekyll installed. If you already have those, awesome, just clone this repository and start a Jekyll server:
 
-After cloning this repository, start a Jekyll server with:
-	
 	bundle exec jekyll serve
 
 and navigate your browser to localhost:4000
@@ -15,6 +13,28 @@ and navigate your browser to localhost:4000
 Yay! You can (hopefully) now see the site in action.
 
 To edit content through the CMS-style admin interface, navigate to http://localhost:4000/admin/. 
+
+## Installing Dependencies 
+
+If that didnt work, you might be missing some of the dependencies. 
+
+Do you have Ruby? Open your command line (the program is called Terminal on a Mac) and check.
+
+	ruby -v
+
+If you don't, [install it](https://www.ruby-lang.org/en/documentation/installation/).
+
+Do you have git?
+
+	git --version
+
+If you don't, you'll have to [install that](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+Do you have [Jekyll](https://jekyllrb.com/)?
+
+	gem install jekyll bundler
+
+Let me know if there was another dependency I missed, and I'll add it to the README!
 
 ## Many thanks to togetherlist!
 
