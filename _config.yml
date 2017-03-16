@@ -43,8 +43,7 @@ twitter_username: tech4socialjust
 github_username: mayawagon
 markdown: kramdown
 theme: minima
-gems:
-- jekyll-feed
+gems: [jekyll-feed, jekyll-admin]
 exclude:
 - Gemfile
 - Gemfile.lock
