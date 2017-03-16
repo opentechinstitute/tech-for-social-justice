@@ -2,7 +2,7 @@
 title: Maya Wagoner
 date: 2017-02-10 23:24:00 Z
 position: 13
-photo: "/uploads/IMG_1899%20square.jpg"
+photo: "/uploads/maya-icelab.JPG"
 twitter: mayawagon
 role: core
 organization: Open Technology Institute
