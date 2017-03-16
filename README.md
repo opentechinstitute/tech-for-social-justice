@@ -2,7 +2,13 @@
 
 This is the site for the Technology for Social Justice Field Scan, a participatory action research project led by [Research Action Design](http://rad.cat) and supported by the [Open Technology Institute](https://opentechinstitute.org) at [The New America Foundation](https://newamerica.org). It was developed by [Maya Wagoner](https://github.com/mayawagon).
 
+## Editing Content
+
+After getting permission from someone on the T4SJ team, you can edit photos, text, and posts through the [Siteleaf](https://www.siteleaf.com/) CMS-style interface. Just create and account and start editing. It's rly easy.
+
 ## Quick Setup
+
+To edit the code, there are a couple more steps, but not too much. 
 
 This website is running on [Jekyll](https://jekyllrb.com/), and uses the [Jekyll Admin Interface](https://jekyll.github.io/jekyll-admin/). To use it, you'll need to have Ruby, Git, and Jekyll installed. If you already have those, awesome, just clone this repository and start a Jekyll server:
 
@@ -11,8 +17,6 @@ This website is running on [Jekyll](https://jekyllrb.com/), and uses the [Jekyll
 and navigate your browser to localhost:4000
 
 Yay! You can (hopefully) now see the site in action.
-
-To edit content through the CMS-style admin interface, navigate to http://localhost:4000/admin/. 
 
 ## Installing Dependencies 
 
@@ -34,7 +38,9 @@ Do you have [Jekyll](https://jekyllrb.com/)?
 
 	gem install jekyll bundler
 
-Let me know if there was another dependency I missed, and I'll add it to the README!
+That command should install Jekyll and the bundler for you. 
+
+Let me know if there was another dependency I missed, and I'll add it to this readme. 
 
 ## Many thanks to togetherlist!
 
