@@ -2,9 +2,10 @@
 title: Willow Brugh
 date: 2017-02-11 16:30:00 Z
 position: 16
-photo: "/uploads/willow.jpeg"
+photo: "/uploads/Willow_Brugh.jpg"
 twitter: willowbl00
 role: partner
+organization: Vulpine Blue
 ---
 
-I look at connections, systems, empowerment, and powerlessness and strive to both understand and improve whatever I find. Most of my work is at the overlap of humanitarian/disaster response and technology. I believe that affected communities are always the first responders, and by listening we increase equality, justice, and surge capacity.
+Willow Brugh, known as willowbl00, works with digital tools to enable coordination between response agencies and emergent response groups in areas affected by fast and slow crisis. She studies citizen engagement and combining distributed and centralized decision making structures at the Center for Civic Media at MIT’s Media Lab. Previously she’s been a Professor of Practice at Brown University, an affiliate at the New England Complex Systems Institute, and a fellow at Harvard Law’s Berkman Center for Internet and Society.
