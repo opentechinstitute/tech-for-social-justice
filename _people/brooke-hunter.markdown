@@ -1,6 +1,7 @@
 ---
 title: Brooke Hunter
 date: 2017-03-05 00:59:00 Z
+position: 2
 twitter: BookBrooke
 role: core
 organization: " New America’s Open Technology Institute"

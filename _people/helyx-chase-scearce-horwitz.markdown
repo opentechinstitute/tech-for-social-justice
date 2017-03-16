@@ -1,6 +1,7 @@
 ---
 title: Helyx Chase Scearce Horwitz
 date: 2017-03-05 01:03:00 Z
+position: 4
 photo: https://mediamobilizing.org/wp-content/uploads/2016/07/IMG_1858-300x200.jpg
 role: partner
 organization: Media Mobilizing Project

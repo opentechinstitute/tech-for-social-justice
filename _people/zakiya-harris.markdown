@@ -1,7 +1,7 @@
 ---
 title: Zakiya Harris
 date: 2017-02-13 19:30:00 Z
-position: 10
+position: 15
 photo: "/uploads/hwmN_814.jpeg"
 twitter: zakiyalharris
 role: partner

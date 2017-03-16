@@ -1,6 +1,7 @@
 ---
 title: Berhan Taye
 date: 2017-02-14 16:26:00 Z
+position: 0
 photo: "/uploads/BerhanTaye.jpg"
 twitter: btayeg
 role: core
