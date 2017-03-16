@@ -2,6 +2,7 @@
 title: Susan Mernit
 date: 2017-02-13 19:33:00 Z
 position: 15
+photo: "/uploads/susan-mernit.jpg"
 twitter: susanmernit
 role: partner
 organization: Hack the Hood
