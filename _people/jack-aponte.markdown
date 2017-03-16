@@ -1,7 +1,7 @@
 ---
 title: Jack Aponte
 date: 2017-02-13 19:26:00 Z
-position: 10
+position: 11
 photo: "/uploads/jack_aponte_040616.png"
 twitter: jackaponte
 role: partner

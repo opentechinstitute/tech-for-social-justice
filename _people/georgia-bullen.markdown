@@ -1,7 +1,7 @@
 ---
 title: Georgia Bullen
 date: 2017-02-10 15:18:00 Z
-position: 9
+position: 10
 photo: "/uploads/georgia-bullen_person_image.original.jpg"
 twitter: georgiamoon
 role: core

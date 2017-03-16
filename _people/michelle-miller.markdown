@@ -1,6 +1,7 @@
 ---
 title: Michelle Miller
 date: 2017-03-16 19:38:00 Z
+position: 7
 photo: "/uploads/Michelle%20Miller_Coworker.org_Headshot%20(1).jpg"
 role: partner
 organization: CoWorker.org

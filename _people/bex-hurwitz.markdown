@@ -1,7 +1,7 @@
 ---
 title: Bex Hurwitz
 date: 2017-02-10 22:43:00 Z
-position: 8
+position: 9
 photo: "/uploads/bex-300px.jpg"
 twitter: bxhrz
 role: core
