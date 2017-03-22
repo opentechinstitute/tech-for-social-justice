@@ -8,4 +8,4 @@ role: core
 organization: Open Technology Institute
 ---
 
-Maya Wagoner is a designer, researcher, activist, curriculum co-creator and developer. She works at the Open Technology Institute in Washington, D.C. and is in the Masters' Comparative Media Studies Program at MIT.
+Maya M. Wagoner is a research assistant at the Open Technology Institute and a Master’s student in Comparative Media Studies at MIT who is interested in building digital platforms with principles of social justice, collaborative design, and critical pedagogy. Prior to studying at MIT, she grew up all around California, worked as a UX designer and usability researcher, and was an organizer of both the UC Santa Cruz African/Black Student Alliance and Code for San Francisco. She currently lives in Somerville, MA and fosters wayward cats in her home.
