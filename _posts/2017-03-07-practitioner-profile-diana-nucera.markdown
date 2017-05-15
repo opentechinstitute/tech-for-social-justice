@@ -53,5 +53,3 @@ Over the years Nucera observed patterns in the implementation of technology proj
 “Young people who were born into a technologically-connected world should also be respected and trained as experts of technology, not just consumers or beta testers,” Nucera said. 
 
 “We have to start looking at those people who are actually using the technology as the experts — otherwise you're always looking to the academics and the corporations for the future,” she added. “My work is all about bringing together people that are using tech in different ways. It's about bringing the expert out in people, not bringing the expert to people."
-
-
