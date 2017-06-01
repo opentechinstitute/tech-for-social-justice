@@ -1,0 +1,164 @@
+$zero: $white //the dots and the line
+$one: $altColor //the line after you click
+$two: $white //background of info
+$three: $black //background of timeline
+$four: $altColor //the line (as far as it's completed)
+
+$desktop-complete: #{$four}
+$mobile-complete: #{$two}
+$incomplete: #{$zero}
+$desktop-active: #{$two}
+$mobile-active: #{$four}
+
+=circle
+	background-color: $incomplete
+	border-radius: 50%
+	float: left
+	position: relative
+	left: 5.625% // (line width / # of dots)
+	box-sizing: border-box
+
+// html
+// 	background-color: $two
+// 	font-family: 'Open Sans'
+// 	color: $zero
+section
+	// width: 100%
+	// box-sizing: border-box
+	// min-height: 33vh
+	padding-top: 9em
+	padding-bottom: 9em
+	.section-wrapper
+		padding: 10px
+		box-sizing: border-box
+		height: 100%
+.line
+	width: 90%
+	height: 4px
+	background: linear-gradient(to right, $desktop-complete 75%, $incomplete 75%) // (# of dots filled * 5.3) + ((line width / # of dots) / 2)
+	margin-top: 20vh
+	margin-left: 5% // perfect centering
+	&:hover
+		cursor: pointer
+	.phase
+		+circle
+		// MARGINS = (((line width ÷ # of dots) ÷ 2) - (dot width ÷ 2))
+		// ....... = (((0.9 ÷ 17) ÷ 2) - (25 ÷ 2))
+		margin-right: calc(3% - 12.5px)
+		margin-left: calc(3% - 12.5px)
+		width: 25px
+		height: 25px
+		top: -10px
+		&::before
+			content: attr(data-timelinelabel)
+			position: absolute
+			top: -75px
+			left: -5px
+			width: 150px
+			transform: rotateZ(-45deg)
+			display: block
+			font-size: 0.8em
+			font-weight: bold
+		&::after
+			content: attr(data-mobiletext)
+			position: absolute
+			top: 23px
+			left: -15px
+			padding: 10px
+	.month
+		+circle
+		margin-right: calc(3% - 7.5px) // -7.5px since these dots are only 15px wide
+		margin-left: calc(3% - 7.5px)
+		width: 15px
+		height: 15px
+		top: -5px
+	.complete
+		background-color: $desktop-complete
+	.dot
+		&.active
+			background-color: $desktop-complete
+			cursor: pointer
+#timeline
+	// padding-top: 50px
+	padding-bottom: 50px
+	background-color: $three
+	color: $two
+#description
+	padding-top: 80px
+	min-height: 30vh
+	//background-color: $two
+	color: $white
+	font-family: $headerFont
+	font-weight: 200
+	text-align: center
+	font-size: 1.2em
+	h3
+		color: $desktop-complete
+		font-weight: 600
+	.section-wrapper > div
+		display: none
+		&.text-default
+			display: block
+
+
+@media all and (max-width: 760px)
+	.line
+		.phase
+			width: 20px
+			height: 20px
+			margin-right: calc(3% - 10px)
+			margin-left: calc(3% - 10px)
+			top: -8px
+		.month
+			width: 10px
+			height: 10px
+			margin-right: calc(3% - 5px)
+			margin-left: calc(3% - 5px)
+			top: -3px
+@media all and (min-width: 481px)
+	.month
+		&.q1
+			display: none
+	.dot
+		&:hover
+			background-color: $desktop-active
+			cursor: pointer
+@media all and (max-width: 480px)
+	#timeline
+		padding-bottom: 20px
+		padding-top: 0
+	.line
+		height: auto
+		background: transparent
+		margin-top: 20px
+		.phase, .month
+			border-radius: 0
+			float: none
+			position: static
+			margin-right: 0
+			margin-left: 0
+			box-sizing: border-box
+			width: 100%
+			height: 42px
+			text-align: center
+			transition: background-color 500ms
+			&::after
+				content: attr(data-mobiletext)
+				display: block
+				padding-top: 12px
+			&.complete
+				background-color: $mobile-complete
+				color: $zero
+			&.active, &.complete.active
+				background-color: $mobile-active
+				color: $zero
+		.phase
+			display: block
+			&::before
+				display: none
+			&::after
+				position: static
+		.month
+			display: none
+			&.y2017
+				display: block
