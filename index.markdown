@@ -1,5 +1,5 @@
 ---
-title: Home
+title: The Technology for Social Justice Field Scan
 date: 2017-02-13 16:34:00 Z
 layout: home
 ---
