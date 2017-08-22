@@ -1,7 +1,6 @@
 ---
 title: 'Practitioner Profile: Jack Aponte'
 date: 2017-08-22 21:24:00 Z
-published: false
 ---
 
 For many community organizations that work on social justice issues, just keeping the office computers running can be a challenge.
