@@ -1,8 +1,8 @@
 ---
 title: 'Practitioner Profile: Jack Aponte'
 date: 2017-08-22 21:24:00 Z
-header-photo: "/uploads/jack_fro_040616-a097c4.png"
-post-type: Practitioner Profile
+practitioner-profile-photo: "/uploads/jack_fro_040616-a097c4.png"
+post-type: "Practitioner Profile"
 ---
 
 For many community organizations that work on social justice issues, just keeping the office computers running can be a challenge.

@@ -23,7 +23,7 @@ $altSecondaryColor: #f5743d // brighter red-orange
 $white: #ffffff //#fefef1 //#fdfdf1 // A warm off-white: 
 $black: #415851 // A cool, dark grey
 $primaryFont: 'Source Sans Pro', 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
-$headerFont: 'Montserrat', 'Space Mono', 'Source Sans Pro', 'Inconsolata', 'Courier', monospace
+$headerFont: 'acier-bat-solid', 'Montserrat', 'Space Mono', 'Source Sans Pro', 'Inconsolata', 'Courier', monospace
 $headerHeight: 24em
 $homeHeaderHeight: 24em //700px
 
@@ -325,6 +325,19 @@ footer
   padding: 5em 2em 
   max-width: 50em
 
+.post-type
+  //position: absolute
+  margin-left: 1rem
+  margin-right: 1rem
+  //top: 9.3em
+  //height: 2em
+  span
+    font-size: 1em
+    line-height: auto
+    margin-bottom: 0
+    background-color: wheat
+    padding: 0.6em
+
 .post
   border-bottom: 1px solid $black
   margin-bottom: 2em
@@ -341,6 +354,11 @@ footer
     padding-top: 1em
   p
     line-height: 1.58
+    font-family: 'chaparral-pro'
+
+.post-content img
+  max-width: 100%
+  margin: 1em 0
 
 /***--------------------------------------------/
 // Media Queries
