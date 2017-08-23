@@ -32,6 +32,8 @@ defaults:
     type: posts
   values:
     header-photo: ''
+    practitioner-photo: ''
+    post-type: ''
     layout: post
 email: maya@opentechinstitute.org
 description: This is the website for the Technology for Social Justice Field Scan,
