@@ -1,7 +1,14 @@
 header
   .middle-block
-    width: 43em
+    max-width: 43em
     margin: 0 auto
+    position: relative
+    .middle-middle-block
+      top: 9em
+      position: absolute
+      @include small
+        top: 7em
+
   h1
     a, a:visited, a:hover
       color: #fff !important
@@ -78,11 +85,12 @@ header
   line-height: 135%
   //margin-left: auto
   //margin-right: auto
-  position: absolute
-  top: 4.5em
+  margin-top: 0.5em
+  //position: absolute
+  //top: 4.5em
   @include small
     font-size: 2em
-    top: 120px
+    //top: 120px
 
 .header-bar-home
   color: #FFF
