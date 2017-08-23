@@ -1,7 +1,7 @@
 ---
 title: 'Practitioner Profile: Jack Aponte'
 date: 2017-08-22 21:24:00 Z
-header-photo: "/uploads/jack_fro_040616-a097c4.png"
+practitioner-profile-photo: "/uploads/jack_fro_040616-a097c4.png"
 post-type: "Practitioner Profile"
 ---
 
