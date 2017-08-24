@@ -6,4 +6,4 @@ post-type: Research Instrument
 
 This interview guide, which was the basis for all of the interviews conducted with practitioners in 2017, was collaboratively developed based on the concerns of the partner organizations on this project.
 
-* [Link to PDF version of semi-structured interview guide we used for our interview process in 2017](/uploads/interview-guide-II.pdf).
+* [Link to PDF version of semi-structured interview guide we used for our interview process in 2017 (6 pages)](/uploads/interview-guide-II.pdf).
