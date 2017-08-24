@@ -8,9 +8,9 @@ This interview guide, which was the basis for all of the interviews conducted wi
 
 * [Link to PDF version of semi-structured interview guide we used for our interview process in 2017](/uploads/interview-guide-II.pdf).
 
-\# Technology for Social Justice Field Scan Semi-Structured Interview Guide - Phase II
+# Technology for Social Justice Field Scan Semi-Structured Interview Guide - Phase II
 
-\## Before the Interview
+## Before the Interview
 
 * Send the interview questions: (this doc)
 
