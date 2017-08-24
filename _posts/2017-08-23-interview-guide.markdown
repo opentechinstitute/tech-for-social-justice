@@ -66,45 +66,45 @@ Start recorder
 
 ## Recorded Consent
 
-## *"We’ve started the recording, so for the purposes of voice recognition for the transcriber, I’m going to ask that we each state our name and interview role. (e.g. This is Berhan Taye, Interviewer, etc.)"*
+"We’ve started the recording, so for the purposes of voice recognition for the transcriber, I’m going to ask that we each state our name and interview role. (e.g. This is Berhan Taye, Interviewer, etc.)"
 
-*"Before we begin, we need to ensure informed consent. Will you read the highlighted statement out loud for the audio recorder?*\* ‘The Technology for Social Justice Field Scan project was explained to me, and I agree to participate in this study. I have received a copy of the consent agreement, and I understand I am free to withdraw at any time.’ My name is \[your name\] and I consent to this interview."  \*
+"Before we begin, we need to ensure informed consent. Will you read the highlighted statement out loud for the audio recorder?*\* ‘The Technology for Social Justice Field Scan project was explained to me, and I agree to participate in this study. I have received a copy of the consent agreement, and I understand I am free to withdraw at any time.’ My name is \[your name\] and I consent to this interview." 
 
-*"Thanks! Let’s begin."*
+"Thanks! Let’s begin."
 
 ## Interview Questions
 
 ### A. Ecosystem & Definitions
 
-![image alt text](image_1.png)*We’ll begin by talking about what your organization does, the terms you use to discuss your work, and how we might define your field.*
+We’ll begin by talking about what your organization does, the terms you use to discuss your work, and how we might define your field.
 
-* ***Tell me briefly about the mission of your \[organization / company / agency / project\].***
+* Tell me briefly about the mission of your \[organization / company / agency / project\].
 
-* ***How long have you been with the organization, and what is your role there?***
+* How long have you been with the organization, and what is your role there?
 
-  * \*\[Prompt\]: \**What community(ies) does your organization work with (or, who is your audience/what kind of clients do you work with?)*
+  * \[Prompt\]: What community(ies) does your organization work with (or, who is your audience/what kind of clients do you work with?)
 
-  * *\[Prompt\] What role does technology play in your work*\*? \*
+  * \[Prompt\] What role does technology play in your work?
 
-    * \*\[Prompt\] Does this match your original expectations and/or skills? \*
+    * \[Prompt\] Does this match your original expectations and/or skills?
 
-    * \*\[Prompt\] What specific goals are you trying to accomplish? \*
+    * \[Prompt\] What specific goals are you trying to accomplish?
 
-    * *\[Prompt\] What defines success in the work that you do?*
+    * \[Prompt\] What defines success in the work that you do?
 
-    * *\[Prompt\] How do you pick or prioritize what to work on?*
+    * \[Prompt\] How do you pick or prioritize what to work on?
 
-  * *Are there other "technologists" that work at your organization, or do you consider yourself the only one? \[This question could come after the question below about whether the person thinks of him/her/themselves as a "public interest technologist"\]*
+  * Are there other "technologists" that work at your organization, or do you consider yourself the only one? \[This question could come after the question below about whether the person thinks of him/her/themselves as a "public interest technologist"\]
 
-  * *Do you feel like your technology work is well-integrated with other work that's happening at your organization?*
+  * Do you feel like your technology work is well-integrated with other work that's happening at your organization?
 
 * Describe the field you work in. 
 
-  * \[Prompt\]: \*You used _______ terms to talk about your work. Why do you use those terms rather than other similar terms?
+  * \[Prompt\]: You used _______ terms to talk about your work. Why do you use those terms rather than other similar terms?
 
-*One of our goals is to capture the diversity of analysis and framing that practitioners bring to their work. With that, we'd like to do a small activity and then ask a few questions about the values, framing, terminology and analysis that ground your work.*
+* One of our goals is to capture the diversity of analysis and framing that practitioners bring to their work. With that, we'd like to do a small activity and then ask a few questions about the values, framing, terminology and analysis that ground your work.
 
-* \[If in person, hand them this sheet, if remote, send them a link to a unique copy of this: **[http://bit.ly/t4sj-interview-terms](http://bit.ly/t4sj-interview-terms)**\]
+* If in person, hand them this sheet, if remote, send them a link to a unique copy of this: [http://bit.ly/t4sj-interview-terms](http://bit.ly/t4sj-interview-terms)
 
 People talk about their work in a lot of different ways, and we are trying to understand what people see as the overlap between some of these terms, and which ones more people are using. I’ll give you a few minutes to put a star next to the one you identify most with, X’s next to ones you feel don’t belong, and question marks next to ones you’re not familiar with, and then we’ll talk about it. This is not a test, so there’s really no pressure, we just want to get a sense of how you think about these things. 
 
@@ -112,21 +112,21 @@ People talk about their work in a lot of different ways, and we are trying to un
     
     * [Prompt] Do you feel that the framing of your work determines the allies and funding that you have access to? If so, how?
 
-* **Have you faced any \[other\] organizational challenges or barriers? For example, do you deal with difficulty finding funding, or getting leaders to prioritize the work you do?**
+* Have you faced any \[other\] organizational challenges or barriers? For example, do you deal with difficulty finding funding, or getting leaders to prioritize the work you do?
 
 ### B. Your experience as a practitioner (how you got into this work, key barriers and opportunities, support you may need)
 
-*Now we’d like to talk about your experiences as a practitioner.*
+Now we’d like to talk about your experiences as a practitioner.
 
-* **Just out of curiosity, do you think of yourself as a ‘public interest technologist?’ Why or why not?**
+* Just out of curiosity, do you think of yourself as a ‘public interest technologist?’ Why or why not?
 
   * \[Prompt\] How do you think of yourself? Why?
 
-* **How did you enter this work?**
+* How did you enter this work?
 
-* \[Prompt\]: *Why do you keep doing the work you do?*
+* \[Prompt\]: Why do you keep doing the work you do?
 
-* **What were some key opportunities that helped you advance?**
+* What were some key opportunities that helped you advance?
 
   * Is there anyone you admire, or who directly supported you on your path into this work?
 
@@ -138,7 +138,7 @@ People talk about their work in a lot of different ways, and we are trying to un
 
   * Anything else?
 
-* **What are the biggest challenges or barrier**s you **have faced** or continue to face in this field?
+* What are the biggest challenges or barriers you have faced or continue to face in this field?
 
   * Have you had to navigate sexism, racism, ableism, classism, homophobia, transphobia, xenophobia, ageism, or other specific forms of discrimination and oppression?
 
@@ -154,31 +154,31 @@ People talk about their work in a lot of different ways, and we are trying to un
 
 ### C. Your vision for the field
 
-![image alt text](image_5.png)*In this next set of questions, we’d like to hear your thoughts on your vision of your field*
+In this next set of questions, we’d like to hear your thoughts on your vision of your field
 
-* **What values and principles are most vital to the work you do?**
+* What values and principles are most vital to the work you do?
 
-* **What is needed to build**\*\* your field in ways that are aligned with your **values**?\*\*
+* What is needed to build your field in ways that are aligned with your values?
 
-  * \*\[Prompt\]: \*Is this already happening, and if so, how, where and by who?
+  * \[Prompt\]: Is this already happening, and if so, how, where and by who?
 
 * Imagine that all of your organization’s currently unmet tech needs are all met. What does that look like? 
 
-* **What urgent threats**\*\* to communities are tech practitioners currently **tackling? What threats could use more attention from tech practitioners?**
+* What urgent threats to communities are tech practitioners currently **tackling? What threats could use more attention from tech practitioners?**
 
   * \[Prompt\]: How can these threats be addressed?
 
 ### D: Stories of success and failure (what works, what doesn’t, and why)
 
-![image alt text](image_6.png)*We are looking for specific stories about success and failure. What works, what doesn’t, and why.*
+We are looking for specific stories about success and failure. What works, what doesn’t, and why.
 
-* **Who** do you think of as doing the most important work in your field and why? 
+* Who do you think of as doing the most important work in your field and why? 
 
   * \[Prompt\] Who do you think of as doing great work in your field, but is NOT getting the recognition or resources they deserve?
 
   * \[Prompt\] Why do you think they aren’t better recognized?
 
-* Please share a brief and concrete story of a **tech** or tech-related project that was deployed with good intentions, that ended up harming the community it was meant to serve. 
+* Please share a brief and concrete story of a tech or tech-related project that was deployed with good intentions, that ended up harming the community it was meant to serve. 
 
   * \[Alternate\] Have you noticed any problematic or inadvertently harmful trends in your field?
 
@@ -186,15 +186,15 @@ People talk about their work in a lot of different ways, and we are trying to un
 
   * \[Alternate\] What practices are important for technology projects to adopt when attempting to serve community needs? Do you know of anyone who has done this particularly well?
 
-* **Do you have a** good example of a community leading the design or decision-making on a technology project that affected them?
+* Do you have a good example of a community leading the design or decision-making on a technology project that affected them?
 
 ### E. Open Ended
 
 * You are in a room with other folks involved in your field or allied fields. Who are they and what would you ask them? 
 
-* *Is there anything else you’d like to share that we haven’t touched on today?*
+* Is there anything else you’d like to share that we haven’t touched on today?
 
-* Lastly, can you think of anyone else you know who might be a good person to interview? *We’re especially interested in talking to people who may be new to the work, who might not even consider themselves part of the field, or whose stories or experiences are important but not widely known.*
+* Lastly, can you think of anyone else you know who might be a good person to interview? *We’re especially interested in talking to people who may be new to the work, who might not even consider themselves part of the field, or whose stories or experiences are important but not widely known.
 
 Stop recorder
 
@@ -202,4 +202,4 @@ Stop recorder
 
 end official interview
 
-![image alt text](image_7.png)*How was that for you? The recorder is off, and we wanted to leave it open for you to share anything with us off the record. We will be producing a report at the end of this research around September, and we will send you a copy. We also will send you a recording of your interview and a copy of your own interview transcript. Thank you again!*
+How was that for you? The recorder is off, and we wanted to leave it open for you to share anything with us off the record. We will be producing a report at the end of this research around September, and we will send you a copy. We also will send you a recording of your interview and a copy of your own interview transcript. Thank you again!
