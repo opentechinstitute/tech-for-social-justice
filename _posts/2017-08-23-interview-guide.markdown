@@ -23,6 +23,8 @@ This interview guide, which was the basis for all of the interviews conducted wi
 
 * If remote, make a unique copy of the terms worksheet to share with your interviewee, and a unique copy of the interview notes template for taking notes and debriefing: [http://bit.ly/interviewnotestemplate](http://bit.ly/interviewnotestemplate)
 
+---
+
 ## Before Recording
 
 \*\*By way of introduction.. \*\*
@@ -58,6 +60,8 @@ This interview guide, which was the basis for all of the interviews conducted wi
 * We will be recording the sound from this call for transcription purposes only - to support the analysis. We won’t share the recording or the transcript with anyone outside of the research team, other than Rev.Com the transcription service \[that we feel has strong data protection\]. We will also share a copy of the recording and transcript with you following the interview.
 
 Q & A  - Do you have any questions for us before we begin?
+
+---
 
 Start recorder
 
