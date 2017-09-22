@@ -42,6 +42,9 @@ That command should install Jekyll and the bundler for you.
 
 Let me know if there was another dependency I missed, and I'll add it to this readme. 
 
+## Homepage timeline
+The homepage timeline is a modified version of the [Responsive Timeline by Clay Larson](https://codepen.io/cjl750/details/XMyRoB#forks).
+
 ## Many thanks to togetherlist!
 
 The "Search Projects & Organizations" page is based on [togetherlist](http://togetherlist.com/), which was created by [Sougwen](http://twitter.com/sougwen), [Raihan](http://twitter.com/raihan_) & [Willow](http://twitter.com/willowbl00) and a bunch of other contributors.
