@@ -1,5 +1,5 @@
 ---
-title: 'Practitioner Profile:'
+title: 'Practitioner Profile: Helyx Chase'
 date: 2017-09-28 18:31:00 Z
 header-photo: "/uploads/Helyx%20photo.jpg"
 practitioner-photo: "/uploads/20785882_10210387203024556_1222645926926259041_o.jpg"
