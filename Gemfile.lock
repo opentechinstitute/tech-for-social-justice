@@ -3,8 +3,14 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
+    autoprefixer-rails (7.1.2.6)
+      execjs
     backports (3.6.8)
+    bootstrap (4.0.0.alpha6)
+      autoprefixer-rails (>= 6.0.3)
+      sass (>= 3.4.19)
     colorator (1.1.0)
+    execjs (2.7.0)
     ffi (1.9.17)
     forwardable-extended (2.6.0)
     jekyll (3.4.0)
@@ -69,6 +75,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap (~> 4.0.0.alpha6)
   jekyll (= 3.4.0)
   jekyll-admin
   jekyll-feed (~> 0.6)
@@ -79,4 +86,4 @@ RUBY VERSION
    ruby 2.0.0p648
 
 BUNDLED WITH
-   1.15.0
+   1.15.1

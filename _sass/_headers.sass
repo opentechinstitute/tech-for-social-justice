@@ -1,6 +1,14 @@
 header
   .middle-block
-    width: 43em
+    max-width: 43em
+    margin: 0 auto
+    position: relative
+    .middle-middle-block
+      top: 9em
+      position: absolute
+      @include small
+        top: 7em
+
   h1
     a, a:visited, a:hover
       color: #fff !important
@@ -13,7 +21,12 @@ header
     padding: 0.5em 1.2em
     line-height: normal
     img 
-      height: 1.5em
+      height: 10em
+    svg
+      fill: $black
+      height: 14em
+      &:nth-child(2)
+        fill: red
     @include small
       padding: 0
   video
@@ -63,20 +76,21 @@ header
   color: #FFF
   //background-color: none
   //box-shadow: 10px 0 0 #FFFFFF, -10px 0 0 #FFFFFF
-  width: 100%
+  //width: 100%
+  max-width: 19em
   //margin: 10rem auto 1.2rem auto
-  //padding-left: 1rem
-  //padding-right: 1rem
-  font-size: 2.8em
-  text-align: center
+  padding-left: 1rem
+  padding-right: 1rem
+  font-size: 2.5em
   line-height: 135%
   //margin-left: auto
   //margin-right: auto
-  position: absolute
-  top: 174px
+  margin-top: 0.5em
+  //position: absolute
+  //top: 4.5em
   @include small
     font-size: 2em
-    top: 120px
+    //top: 120px
 
 .header-bar-home
   color: #FFF
