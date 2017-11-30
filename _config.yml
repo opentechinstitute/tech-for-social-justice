@@ -46,6 +46,7 @@ theme: minima
 gems:
 - jekyll-feed
 - jekyll-admin
+- jekyll/tagging
 exclude:
 - Gemfile
 - Gemfile.lock
