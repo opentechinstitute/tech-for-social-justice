@@ -3,29 +3,29 @@
 
 @import reset
 @import fonts
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,700')
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700')
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900')
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Raleway|Space+Mono|Source+Code+Pro')
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
-
+@import quotes
 
 // MQ trigger
-@mixin small 
-  @media only screen and (max-width: 766px) 
+@mixin small
+  @media only screen and (max-width: 766px)
     @content
 
 //Variables
 
 $secondaryColor: #f8e30d // Super bright accent yellow
-$altColor: #32CCBC //bright teal //#9c6dce //bright purple //#72cace // A bright, but friendly and approachable teal-blue
+$altColor: #5fcab8 //bright teal //#9c6dce //bright purple //#72cace // A bright, but friendly and approachable teal-blue
 $primaryColor: darken($altColor, 20%) //#c95e31 // Red-orange: powerful and says we mean business. Could be brighter?
 $altSecondaryColor: #f5743d // brighter red-orange
-$white: #ffffff //#fefef1 //#fdfdf1 // A warm off-white: 
+$white: #fefef1 //#fdfdf1 // A warm off-white:
 $black: #415851 // A cool, dark grey
 $primaryFont: 'Source Sans Pro', 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
-$headerFont: 'acier-bat-solid', 'Montserrat', 'Space Mono', 'Source Sans Pro', 'Inconsolata', 'Courier', monospace
+$headerFont: 'Montserrat', 'Space Mono', 'Source Sans Pro', 'Inconsolata', 'Courier', monospace
 $headerHeight: 24em
-$homeHeaderHeight: 24em //700px
+$homeHeaderHeight: 700px
 
 /***--------------------------------------------/
 // Typography
@@ -35,7 +35,7 @@ html
   font-family: $primaryFont
   color: $black
 
-h1, h2, h3, h4, h5, h6 
+h1, h2, h3, h4, h5, h6
   font-family: $primaryFont
   line-height: 140%
 
@@ -77,12 +77,12 @@ main
   position: relative
   background: $white
 
-.hide 
+.hide
   display: none !important
 
 .not-home
   margin-top: $headerHeight
-  @include small 
+  @include small
     margin-top: 20em
 
 .clear
@@ -91,32 +91,28 @@ main
 .content
   max-width: 1000px
   margin: 0 auto
-  padding: 9em 2em
+  padding: 2em 2em
   clear: both
 
 .content-narrow
   max-width: 740px
   margin: 0 auto
   padding: 2em 2em
-  clear: both  
+  clear: both
 
 .content-wide
   max-width: 1200px
   margin: 0 auto
   padding: 2em 2em
-  clear: both  
+  clear: both
 
 footer
-  background: #eee
+  background: #fff
   color: $black
   padding: 3em 0
-  line-height: 1.8em
-  font-size: 1.2em
-  font-family: 'acier-bat-solid', 'source sans pro', helvetica, sans-serif
   display: flex
   flex-flow: row wrap
   justify-content: space-around
-  text-align: center
   bottom: 0
   left: 0
   right: 0
@@ -129,21 +125,21 @@ footer
     text-decoration: none
     &:hover
       color: $primaryColor
-      text-decoration: none
+      text-decoration: underline
   img
     height: 50px
     vertical-align: middle
     margin-right: 0.5em
-  section 
+  section
     width: 100%
     margin: 0
-    text-align: center
-    li 
+    text-align: left
+    li
       float: left
   .core-team
     height: 40%
   .partners
-    height: 60% 
+    height: 60%
   .about
     height: 80%
   .social
@@ -156,7 +152,7 @@ footer
   .footer-right
     text-align: right
     padding-left: 3em
-    li 
+    li
       padding: 1em 0.5em
   .copyright
     text-align: center
@@ -177,10 +173,6 @@ footer
 
 .home-orgs
   background-color: $black
-
-.home-about
-  p
-    margin-bottom: 0px
 
 .home-people
   background-color: $secondaryColor
@@ -233,9 +225,7 @@ footer
     -webkit-flex-wrap: wrap
 
 .search
-  //background-color: lighten($altColor, 10%)
-  background-color: #32CCBC
-  //background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%)
+  background-color: lighten($altColor, 10%)
 
 .search-input
   width: 100%
@@ -248,22 +238,22 @@ footer
   //border-radius: 2em
   color: $black
   &::-webkit-input-placeholder
-    color: $white 
+    color: $white
     opacity: 0.7
   &:-moz-placeholder
-    color: $white 
+    color: $white
     opacity: 0.7
   &::-moz-placeholder
-    color: $white 
+    color: $white
     opacity: 0.7
-  &:-ms-input-placeholder 
-    color: $white 
+  &:-ms-input-placeholder
+    color: $white
     opacity: 0.7
 
 .search-wrapper
   position: relative
   margin-left: 2em
-  .toggle-filters 
+  .toggle-filters
     position: absolute
     color: #fff
     right: 0
@@ -323,52 +313,32 @@ footer
 
 /***--------------------------------------------/
 // Blog styles
-/***--------------------------------------------/ 
+/***--------------------------------------------/
 
 .blog
-  padding: 5em 2em 
+  padding: 5em 2em
   max-width: 50em
-
-.post-type
-  //position: absolute
-  margin-left: 1rem
-  margin-right: 1rem
-  //top: 9.3em
-  //height: 2em
-  span
-    font-size: 1em
-    line-height: auto
-    margin-bottom: 0
-    background-color: wheat
-    padding: 0.6em
 
 .post
   border-bottom: 1px solid $black
   margin-bottom: 2em
-  &:last-child 
+  &:last-child
     border-bottom: none
-  .image 
+  .image
     background-size: cover
     background-position: center
     height: 200px
-  h2 
+  h2
     font-size: 1.1em
     font-family: $headerFont
   .text
     padding-top: 1em
   p
     line-height: 1.58
-    font-family: 'chaparral-pro'
-
-.post-content img
-  max-width: 100%
-  margin: 0 0 2em 0
-  @include small
-    margin-top: 4em
 
 /***--------------------------------------------/
 // Media Queries
-/***--------------------------------------------/ 
+/***--------------------------------------------/
 
 @media screen and (max-width: 490px)
   .header-bar
@@ -387,17 +357,17 @@ footer
   padding: 2em 0.5em
 
   .content-narrow
-    padding: 2em 1em 
+    padding: 2em 1em
 
   .content-wide
     padding: 2em 1em
 
-  .footer-container 
+  .footer-container
     display: block
 
   .about-intro, .about-letter, .faq
     padding: 3em 0.5em
-  
+
   footer
     display: block
     text-align: center
@@ -406,8 +376,8 @@ footer
 
 
 /***--------------------------------------------/
-// Other imports
-/***--------------------------------------------/ 
+// Testing testing 123
+/***--------------------------------------------/
 
 
 
@@ -416,6 +386,3 @@ footer
 @import resource
 @import about
 @import people
-@import timeline
-
-
