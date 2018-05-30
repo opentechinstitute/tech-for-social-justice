@@ -1,5 +1,5 @@
 ---
-title: Explore #MoreThanCode Powerful Quotes
+title: Explore
 layout: quotes
 ---
 
