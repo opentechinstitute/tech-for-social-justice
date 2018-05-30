@@ -33,6 +33,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
+    jekyll-tagging (1.1.0)
+      nuggets
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
@@ -44,6 +46,7 @@ GEM
     minima (2.1.0)
       jekyll (~> 3.3)
     multi_json (1.12.1)
+    nuggets (1.5.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -79,11 +82,12 @@ DEPENDENCIES
   jekyll (= 3.4.0)
   jekyll-admin
   jekyll-feed (~> 0.6)
+  jekyll-tagging
   minima (~> 2.0)
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.0.0p648
+   ruby 2.3.0p0
 
 BUNDLED WITH
-   1.15.1
+   1.16.2
