@@ -1,4 +1,5 @@
 ---
-title: T4SJ #MoreThanCode Interview Quotes
+title: T4SJ
 layout: quotes
 ---
+
