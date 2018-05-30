@@ -1,5 +1,5 @@
 ---
-title: T4SJ
+title: 'Explore #MoreThanCode Powerful Quotes'
 layout: quotes
 ---
 
