@@ -3,7 +3,7 @@ title: 'Practitioner Profile: Yeshimabeit Milner'
 date: 2018-05-30 17:00:00 Z
 post-type: Practitioner Profile
 header-image: 
-practitioner-photo:
+practitioner-photo: 
 author: Puck Lo
 layout: post
 ---
