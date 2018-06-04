@@ -1,9 +1,9 @@
 ---
 title: 'Practitioner Profile: Helyx Chase'
 date: 2017-09-29 19:50:00 Z
-practitioner-photo: "/uploads/20785882_10210387203024556_1222645926926259041_o.jpg"
+practitioner-photo: "/uploads/helyx.jpg"
 post-type: Practitioner Profile
-header-image: "/uploads/20785882_10210387203024556_1222645926926259041_o.jpg"
+header-image: "/uploads/Helyx photo.jpg"
 author: Puck Lo
 layout: post
 ---
@@ -18,7 +18,7 @@ Helyx paused. “I don’t like coding. But I understood it enough that I was ab
 
 What Helyx really loved was film. At the age of nine they were drawn to their parents’ video camera. It was old enough that it only worked when plugged into a wall outlet. By eighth grade, Helyx was able to buy a new camera. Inspired by Michael Moore at the time, they filmed “everything.”
 
-![10329071_467179756745613_3220582675559072171_n.jpg](/uploads/10329071_467179756745613_3220582675559072171_n.jpg)
+![helyx-2.jpg](/uploads/helyx-2.jpg)
 
 “My dad showed me ‘Bowling for Columbine,’” Helyx recalled. “That was the first time I saw a documentary and was like: ‘Oh this can be like funny and interesting.’ Up until then, documentaries were boring, so this changed the framing about what a documentary can be and how interesting that kind of story could be.”
 
