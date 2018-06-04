@@ -3,6 +3,9 @@ title: 'Practitioner Profile: Kenyatta Forbes'
 date: 2018-05-30 16:30:00 Z
 practitioner-photo: "/uploads/Forbes-Headshot.jpeg"
 post-type: Practitioner Profile
+header-image: "/uploads/Forbes-Headshot.jpeg"
+author: Puck Lo
+layout: post
 ---
 
 Educator and Chicago native, Kenyatta Forbes, is in the business of encouraging people to think. She’s taught coding fundamentals to fourth graders via programmable robots, used iPads to customize Special Ed instruction in a public school classroom, and created a card game that forces players to talk about race and Blackness. She has long found creative ways to use technological tools for teaching and community organizing. 

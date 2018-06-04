@@ -2,6 +2,10 @@
 title: 'Practitioner Profile: Noel Hidalgo'
 date: 2018-05-30 16:50:00 Z
 post-type: Practitioner Profile
+header-image: 
+practitioner-photo:
+author: Puck Lo
+layout: post
 ---
 
 When Noel Hidalgo looks at data, he sees opportunities to correct injustice. During the last five years, Noel — a largely self-taught programmer, information technologist and proponent of open data — has taken on an ambitious task.
