@@ -11,8 +11,27 @@ function initialize(data) {
 function drawToolBox(data) {
   var tools = ich.tools({
     'rows': data
-  })
-  $('#tools').html(tools)
+  });
+    var out = ''
+    $.each(data, function(k, v) {
+	console.log(k,v);
+	if (v.category2 != '') {
+	    var category = v.category +', '+ v.category2
+	}
+	else {
+	    var category = v.category
+	}
+	out += '<div id="'+ v.id +'" class="tool-box cat-'+ v.categoryid +'">'
+        out += '<span class="quote-heading">'+ v.description +'</span>'
+    	out += '<div class="tool-box-bottom '+ v.id +'"><ul>'
+    	out += '<li class="quote">'+ v.quote +'</li>'
+    	out += '<li><strong>'+ v.interviewee +', '+ v.title +'</strong></li>'
+    	out += '<li class="category"><small>'+ category +'</small></li>'
+    	out += '<li><a href="https://t4sj.co/quotes/#'+ v.id +'"><small>LINK</small></a></li>'
+    	out += '</ul></div></div>'
+    });
+
+    $('#tools').html(out);
 }
 
 $(document).on( 'click', '#showAvailable', toggleAvailable)
@@ -101,3 +120,4 @@ function filterCategory(text) {
 } else $(this).parent().parent().parent().addClass('filtered')
   })
 }
+
