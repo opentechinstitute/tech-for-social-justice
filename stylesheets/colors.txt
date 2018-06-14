@@ -1,0 +1,54 @@
+COLORS
+
+darkgrey: #36373c
+lightgrey: #4c4d51
+
+wall blue: #CEDEEA
+accent blue: #9FBED4
+dark blue: #494d79
+
+accent colors:
+orange: #E95B00
+Pink: #E48489
+Beige: #EAE8D3
+Yellow: #F7CB00
+Bright Blue: #5991D3
+
+cat-1
+Ecosystem light: #FCE7D9
+Ecosystem dark: #ED5D00
+
+cat-2
+Demographics light: #ECECF6
+Demographics dark: #7D81C4
+
+cat-3
+Practitioner Experience light: #FEEEEC
+Practitioner Experience Dark: #F68B82
+
+cat-5
+Visions & values light: #E9F1EB
+Visions & values dark: #6BA375
+
+cat-4
+Success & Failure light: #F4EFDE
+Success & Failure dark: #C9A837
+
+Conclusions & Key Recs light: #E1EFEE
+Conclusions & Key Recs dark: #37908A
+
+nothing about us without us light: #F68B82
+nothing about us without us dark: #B33320
+
+silver bullets light: #5790D2
+silver bullets dark: #154293
+
+real diversity numbers light: #B88353
+real diversity numbers dark: #724100
+
+Dev, dev, dev light: #7d81c4
+Dev, dev, dev dark: #1F2579
+
+Coops, collectives, oh my light: #6CA476
+Coops, collectives, oh my dark: #004E36
+
