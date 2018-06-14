@@ -14,7 +14,7 @@ function drawToolBox(data) {
   });
     var out = ''
     $.each(data, function(k, v) {
-	console.log(k,v);
+	//console.log(k,v);
 	if (v.category2 != '') {
 	    var category = v.category +', '+ v.category2
 	}
@@ -32,6 +32,14 @@ function drawToolBox(data) {
     });
 
     $('#tools').html(out);
+    // open a quote if it is in the URL
+    if (window.location.hash != '') {
+	var rowNumber = window.location.hash.substring(1)
+	$('.tool-box-bottom' + '.' + rowNumber).css('display', 'inherit')
+	$('div#'+ rowNumber).addClass('selected-tool')
+	var position = ($('div#'+ rowNumber).offset().top - 80)
+	$(window).scrollTop(position)
+    }    
 }
 
 $(document).on( 'click', '#showAvailable', toggleAvailable)
@@ -120,3 +128,5 @@ function filterCategory(text) {
 } else $(this).parent().parent().parent().addClass('filtered')
   })
 }
+
+
