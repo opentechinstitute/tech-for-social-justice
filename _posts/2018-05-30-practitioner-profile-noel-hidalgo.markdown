@@ -28,7 +28,7 @@ In 2015, Noel was awarded a fellowship with the New York-based think tank, Data 
 
 “Nobody’s creating open data curriculum,” Noel explained. “Through our advocacy we've come up with a very clear kind of framework of what we want data to look like. We want data to be in the open data portal, and because the open data portal has a tabular interface, we want to be able to just use the data as it is in the open data portal. We also want there to be an associated curriculum around that data, so that way you can learn how to use the data with purpose — without just the data set being there... or a data dictionary, which is like the explanation of all the data values just sitting there. The data set should be super accessible.”
 
-Noel’s interests in technology and current events were cultivated early in his life. As the son of Puerto Rican immigrants who relocated to Dayton, Ohio, he remembers watching on television the fall of the Berlin Wall and the Tiananmen massacre.
+Noel’s interests in technology and current events were cultivated early in his life. As the son of Puerto Ricans who relocated to Dayton, Ohio, he remembers watching on television the fall of the Berlin Wall and the Tiananmen massacre.
 
 “My father was like, ‘You have to study the news,’” Noel said. “So we would sit as a family, and we would watch the nightly news together in the evening, tune into CNN and watch the last gasps of the 20th century devolve and the beginning of the 21st century evolve.”
 
@@ -40,7 +40,7 @@ As a result, by the time Noel failed out of American University, he was proficie
 
 “I called up the Internet service provider that I had been purchasing service from, and I was like, ‘I see that you're looking for someone to do Macintosh Help Desk. I've taught myself that,’" he said. He landed a job with them and stayed for two years, leaving for another Mac tech support position at the RAND Corporation. He picked up additional skills in systems and network administration.
  
-In 2001, the US invaded Iraq again. 
+In 2003, the US invaded Iraq again. 
 
 “I said, ‘Fuck this, I need to do something political,’” Noel remembered. He volunteered for John Kerry’s presidential campaign. He said, “That's when I started to figure out what it's like to meld politics, policy and technology together.”
 
@@ -77,8 +77,7 @@ BetaNYC has been working with borough president’s offices to help community bo
 “So we want to improve that system and provide 21st-century tools and opportunities,” said Noel. “This is a form of democracy that is supposed to be people-powered, and I want
 to ensure that.”
 
-BetaNYC is working with community boards to livestream and archive meetings online.
-Fellows in BetaNYC’s Civic Innovation Lab program are building tools and curriculum for community boards. Noel and BetaNYC are also working with NYC’s non-emergency information call center, 311, to redesign its open data collection process and tools. Data collected by 311’s clearinghouse includes data on complaints, which, when archived correctly, could be able to help community boards hold agencies accountable, Noel explained.
+BetaNYC is working with community boards to livestream and archive meetings online. Fellows in BetaNYC’s Civic Innovation Lab program are building tools and curriculum for community boards. Noel and BetaNYC are also working with NYC’s non-emergency information call center, 311, to redesign its open data collection process and tools. Data collected by 311’s clearinghouse includes data on complaints, which, when archived correctly, could be able to help community boards hold agencies accountable, Noel explained.
 
 “We have this tool that we're launching called Board Stat, which is a dashboard that helps bring transparency to 311 calls,” he said. “Right now, 311 calls go to the agency, and community boards don't have reports of the service requests. Now, community boards will have a dashboard where they can see in aggregate the types of 311 calls that agencies are responding to. They'll see top 10 service conditions, top 20 descriptors. They're gonna see location and addresses that are susceptible to 311 calls — and this cuts across a number of different ways. Where are noise complaints coming from? Where are flooded streets? Where are heat and hot water complaints coming from? We're now trying to think through, okay, now that we've been advocating for this data to be useful, how do we use it?”
 
