@@ -2,8 +2,8 @@
 title: 'Practitioner Profile: Noel Hidalgo'
 date: 2018-05-30 16:50:00 Z
 post-type: Practitioner Profile
-header-image: 
-practitioner-photo: 
+header-image: "/uploads/Hidalgo_Noel_Large_Smile.jpg"
+practitioner-photo: "/uploads/Hidalgo_Noel_Large_Smile.jpg"
 author: Puck Lo
 layout: post
 ---
